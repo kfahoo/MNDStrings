@@ -1,0 +1,131 @@
+<resources>
+	<string name="app_name">WLAN-Akkusparer</string>
+	<string name="action_wifi">WLAN-Manager</string>
+	<string name="action_networks">Netzwerke</string>
+	<string name="action_refresh">Neu scannen</string>
+	<string name="nActionConnect">Einmal verbinden</string>
+	<string name="nActionAdd">Automatisch verbinden</string>
+	<string name="nActionDisconnect">Trennen</string>
+	<string name="nActionRemove">Automatisches Verbinden deaktivieren</string>
+	<string name="undo">Rückgängig</string>
+	<string name="widgetDescription">Schaltet automatische WLAN-Verwaltung ein/aus</string>
+
+	<string name="wifiLevel">Verbindungsqualität</string>
+	<string name="wifiConnected">Verbunden</string>
+	<string name="wifiEmpty">Es wurden keine Netzwerke gefunden.</string>
+	<string name="newMac">
+		Sie haben sich mit diesem Netzwerk noch nicht verbunden!
+		\nDie MAC-Adresse des Routers ist %s. Bitte prüfen Sie diese falls möglich.
+		\nDiese Meldung ist kein Grund zur Sorge, sie wird Ihnen nur zur Sicherheit angezeigt.
+		\nWenn Sie sich sicher sind, dass Sie sich gerade mit dem richtigen Netzwerk verbinden, können Sie bedenkenlos auf \"Verbinden\" drücken.
+		\nSie können diese Warnung in den Einstellungen deaktivieren.
+	</string>
+	<string name="macChanged">
+		Die MAC-Adresse des Routers hat sich geändert!
+		\nDas kann bedeuten, dass ein anderes Netzwerk in böser Absicht vortäuscht, das Netzwerk %1$s zu sein!
+		\nDies kann aber auch passieren, wenn: 1) Der Router des Netzwerks ersetzt wurde. 2) Ein Netzwerk mehrere Router bereitstellt.
+		\nDie unbekannte MAC-Adresse lautet %2$s.
+		\nSie können diese Warnung in den Einstellungen deaktivieren.
+	</string>
+	<string name="macAdd">MAC-Adresse zu den für dieses Netzwerk bekannten hinzufügen</string>
+	<string name="macDontConnect">Nicht verbinden</string>
+	<string name="networksEmpty">Es wurden noch keine Netzwerke gespeichert!</string>
+	<string name="macsEmpty">Für dieses Netzwerk sind noch keine MAC-Adressen bekannt!</string>
+	<string name="networkDeleted">Netzwerk gelöscht: %s</string>
+	<string name="macDeleted">MAC gelöscht: %s</string>
+	<string name="connectingTo">Verbinden mit %s</string>
+	<string name="networkUnknown">
+		Sie haben für dieses Netzwerk noch keine Anmeldedaten gespeichert.
+		\nWenn Sie auf Okay drücken, wird das Android-Einstellungsmenü geöffnet.
+		\nBitte verbinden Sie sich einmalig dort mit dem Netzwerk.
+	</string>
+
+	<string name="macQuestion"><![CDATA[
+		Möchten Sie MAC-Überprüfungen aktivieren?<br />
+		Standardmäßig überprüft Android bei einem Netzwerk <i>nur</i> den Namen.<br />
+		Haben Sie ein Netzwerk gespeichert, und es gibt ein gleichnamiges Netzwerk, versucht Android automatisch, sich damit zu verbinden.<br />
+		Ein bösartiges Gerät könnte so Passwörter auslesen oder Ihrem Gerät schädliche Daten senden.<br />
+		Die MAC-Überprüfung hilft dabei, ein Netzwerk zu identifizieren.<br />
+		Wir empfehlen Ihnen, dies zu aktivieren. Es werden Ihnen dann aber ein paar zusätzliche Warnungen angezeigt.
+	]]></string>
+	<string name="compatibilityModeActive">Es wurde stattdessen der Kompatibilitätsmodus aktiviert. Sie können dies in den Einstellungen ändern.</string>
+
+	<string name="prefCatWifi">WLAN</string>
+	<string name="prefRefreshTime">Aktualisierungsintervall</string>
+	<string name="prefRefreshTimeDesc">Zeit zwischen Netzwerksuchen. Je kleiner dieser Wert, desto schneller werden Sie mit WLANs verbunden - aber desto größer der Akkuverbrauch.</string>
+	<string name="prefMacCheck">MAC-Überprüfung</string>
+	<string name="prefMacCheckDesc">Optionale Sicherheitsfunktion. Für mehr Informationen sehen Sie bitte in der Hilfe nach.</string>
+	<string name="prefAutoFuncs">Automatische WLAN-Verwaltung</string>
+	<string name="prefAutoFuncsDesc">Automatisch WLAN abschalten und zu bekannten Netzwerken verbinden. Ohne diese Option kann kein Akku gespart werden!</string>
+	<string name="prefLegacy">Kompatibilitäts-Scanmodus</string>
+	<string name="prefLegacyDesc">Kompatibilitäts- statt Niedrigenergiemodus verwenden. Aktivieren Sie dies, wenn Sie hohen Energieverbrauch feststellen. Kein Effekt auf Android &lt; 4.3. Mehr Infos in der Hilfe.</string>
+
+	<string name="macNotifTitle">MAC-Änderung entdeckt!</string>
+	<string name="macNotifText">Das Netzwerk %s wurde gefunden, es wurde aber aufgrund geänderter MAC keine Verbindung hergestellt. Für Optionen bitte hier drücken.</string>
+
+	<string-array name="refreshTimeNames">
+		<item>30 Sekunden</item>
+		<item>1 Minute</item>
+		<item>2 Minuten</item>
+		<item>3 Minuten</item>
+		<item>5 Minuten</item>
+		<item>10 Minuten</item>
+		<item>Eigene…</item>
+	</string-array>
+	<string name="timePickerMinutes">Minuten</string>
+
+	<string-array name="help_spinner">
+		<item>Allgemein</item>
+		<item>@string/action_wifi</item>
+		<item>@string/action_networks</item>
+		<item>@string/action_settings</item>
+	</string-array>
+
+	<string-array name="help_texts">
+		<item><![CDATA[
+	        <h1>Berechtigungen</h1>
+			Die Berechtigungen, die der WLAN-Akkusparer auf Ihrem Gerät anfordert, wurden sorgfältig gewählt. Alle Berechtigungen sind für die Funktionalität nötig.<br />
+			Falls Sie trotzdem Bedenken haben, sind hier alle angeforderten Berechtigungen aufgelistet und aufgeschlüsselt.<br /><br />
+			<b>Netzwerk-Berechtigungen:</b> Erforderlich, um die verfügbaren Netzwerke aufzulisten und um mit Netzwerken zu verbinden.<br />
+			<b>Internet:</b> Für Werbung.<br />
+		]]></item>
+		<item><![CDATA[
+			<h1>Liste aller Netzwerke</h1>
+			Gleich nach dem Öffnen der App wird Ihnen die Liste aller verfügbaren Netzwerke angezeigt. Dazu muss WLAN nicht eingeschaltet sein.<br />
+			Sie sehen hier die Namen der Netzwerke und die Signalstärken. Wenn Sie auf ein Netzwerk drücken, werden Ihnen dazu Optionen angezeigt.<br />
+			Wenn Sie auf \"Automatisch verbinden\" drücken, verbindet sich Ihr Gerät mit dem Netzwerk. Wenn Sie das nächste Mal in Reichweite des Netzwerks sind, werden Sie wieder automatisch mit dem Netzwerk verbunden, auch dann, wenn WLAN ausgeschaltet ist.<br />
+			Bei \"Einmal verbinden\" bleibt Ihr Gerät so lange mit dem Netzwerk verbunden, bis es außer Reichweite kommt, danach wird nach einer kurzen Verzögerung WLAN abgeschaltet.<br />
+			Haben Sie sich mit einem Netzwerk noch nie verbunden, müssen Sie wahrscheinlich einmalig Zugangsdaten angeben.
+			<h1>Mögliche Warnungen</h1>
+			Wenn Sie in den Einstellungen die MAC-Überprüfung aktiviert haben, kann es zu einigen Warnungen kommen. Zu weiteren Informationen dazu sehen Sie bitte in der Hilfe zu \"Netzwerke\" nach.<br />
+			Bei Verbindungsproblemen folgen Sie bitte den Anweisungen, die Ihnen die Android-Systemeinstellungen anbieten.
+		]]></item>
+		<item><![CDATA[
+			<h1>Netzwerke</h1>
+			Diese Funktion ist hauptsächlich relevant, wenn in den Einstellungen die MAC-Überprüfung aktiv ist (empfohlen!).
+			<h1>MAC-Überprüfung</h1>
+			Die MAC-Überprüfung ist eine zusätzliche Überprüfung, ob das Netzwerk, mit dem Sie sich verbinden möchten, auch das ist, wofür Sie es halten.<br />
+			Standardmäßig überprüft Android bei einem Netzwerk nämlich <i>nur</i> den Namen.<br />
+			Haben Sie ein Netzwerk gespeichert, und es gibt ein anderes Netzwerk mit dem gleichen Namen, versucht Android automatisch, sich damit zu verbinden.<br />
+			Ein bösartiges Gerät könnte so Passwörter auslesen, die beim Verbindungsversuch gesendet werden, oder Ihrem Gerät schädliche Daten senden.<br />
+			Die MAC-Adresse eines Geräts identifiziert dieses eindeutig.
+			<h1>Funktionsweise</h1>
+			Beim Verbinden mit einem Netzwerk wird mit aktivierer "MAC-Überprüfung"-Einstellung automatisch überprüft, ob die MAC-Adresse mit diesem Netzwerk bekannt ist.<br />
+			In \"Netzwerke\" können Sie bekannte Netzwerke und bekannte MAC-Adressen, die Sie zu einem früheren Zeitpunkt zugelassen haben, wieder löschen.
+		]]></item>
+		<item><![CDATA[
+			<h1>Allgemein</h1>
+		    <b>Sprache:</b> Hier können Sie die Sprache der Anwendung ändern.<br />
+		    <b>Werbung anzeigen:</b> Bitte unterstützen Sie uns, indem Sie hier unaufdringliche Werbung aktivieren.<br />
+		    <b>Farbschema:</b> Hier können Sie einstellen, ob die App helle oder dunkle Farben verwendet.<br />
+		    <b>Seitenleiste offen:</b> Wenn Sie diese Option aktivieren, ist die Seitenleiste beim Start der App geöffnet. Diese Option hat auf Tablets keinen Effekt, da die Seitenleiste dort immer offen ist.
+		    <h1>WLAN</h1>
+		    <b>Aktualisierungsintervall:</b> Hier können Sie einstellen, wie häufig nach neuen Netzwerken gesucht wird. Je geringer diese Einstellung, desto schneller wird WLAN aktiviert, wenn Sie sich in Reichweite eines Netzwerks begeben, aber desto mehr Akku wird auch verbraucht.<br />
+		    <b>MAC-Überprüfung:</b> Hier können Sie die MAC-Überprüfung beim Verbinden deaktivieren (nicht empfohlen!) Für mehr Informationen dazu sehen Sie bitte in der Hilfe zu \"Netzwerke\" nach.
+			<b>Automatische WLAN-Verwaltung:</b> Wenn Sie diese Option deaktivieren, werden alle automatischen Funktionen von WLAN-Akkusparer deaktiviert. Ihr WLAN wird damit nicht mehr automatisch deaktiviert und Sie werden auch nicht mehr automatisch mit gespeicherten Netzwerken verbunden. Damit kann natürlich auch kein Akku gespart werden. Das Widget schaltet diese Option ein und aus.
+			<b>Kompatibilitäts-Scanmodus:</b> Auf Android-Version >= 4.3 funktioniert der Auto-Scan, indem das WLAN-Modul in einem Zustand niedriger Energie gehalten wird. Auf manchen Geräten funktioniert diese Funktion aber nicht richtig und das WLAN-Modul verbraucht trotzdem viel Energie. Auf diesen Geräten können Sie diese Option aktivieren, um trotzdem Akku zu sparen. Deaktivieren Sie dann bitte die Option "Scannen immer verfügbar" in den erweiterten WLAN-Einstellungen Ihres Geräts. Kein Effekt auf Android-Versionen < 4.3
+		]]></item>
+	</string-array>
+
+	<string name="dialogConnect">Verbinden</string>
+</resources>

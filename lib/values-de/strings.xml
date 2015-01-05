@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Actions -->
+	<string name="app_name"/>
+	<string name="drawer_open">Menü öffnen</string>
+	<string name="drawer_close">Menü schließen</string>
+	<string name="action_settings">Einstellungen</string>
+	<string name="action_help">Hilfe</string>
+	<string name="action_about">Informationen</string>
+	<string name="expand">Ausklappen</string>
+	<string name="collapse">Einklappen</string>
+	<string name="action_add">Hinzufügen…</string>
+	<string name="action_edit">Bearbeiten</string>
+	<string name="action_delete">Löschen</string>
+	<string name="pleaseWait">Bitte warten…</string>
+	
+	<!-- Preferences -->
+	<string name="prefCatGeneral">Allgemein</string>
+	<string name="prefLang">Sprache</string>
+	<string name="systemLanguage">Systemsprache</string>
+	<string name="prefAds">Werbung anzeigen</string>
+	<string name="prefAdsDesc">Bitte unterstützen Sie den Entwickler, indem Sie unaufdringliche Werbung anzeigen lassen.</string>
+	<string name="prefTheme">Farbschema</string>
+	<string name="prefThemeDesc">Hier können Sie zwischen hellen und dunklen Farben umstellen.</string>
+	<string name="themeLight">Hell</string>
+	<string name="themeDark">Dunkel</string>
+	<string name="prefDrawer">Seitenleiste offen</string>
+	<string name="prefDrawerDesc">Wenn Sie diese Option aktivieren, ist die Seitenleiste beim Start der App geöffnet. (Wird auf Tablets ignoriert)</string>
+	<string name="adsAsk">
+		Wir verstehen, dass Sie keine Werbung mögen, sie kann wirklich nerven. Aber das Entwickeln von Apps ist viel harte Arbeit.
+		\nWenn Sie wirklich keine Werbung sehen wollen, möchten sie diese harte Arbeit vielleicht stattdessen mit einer kleinen Spende entlohnen?
+	</string>
+	<!--<string name="adsAsk">Wir zeigen Ihnen Werbung, damit wir Ihnen unsere Dienste kostenlos anbieten können. Wollen Sie sie wirklich deaktivieren?</string>
+	<string name="adsThankYou">Vielen Dank!</string>-->
+	
+	<!-- Help -->
+	<string name="helpNav"><![CDATA[
+		<h1>Navigation</h1>
+		Indem Sie auf die drei horizontalen Linien links oben tippen, öffnen Sie die Seitenleiste, die Ihnen schnellen Zugriff auf alle Funktionen ermöglicht. (Auf Tablets ist diese immer offen.)<br />
+		Sie können von hier aus auf alle anderen Hilfeseiten zugreifen, indem Sie oben auf &quot;%s&quot; drücken.<br />
+		Mit der Zurück-Taste (Pfeil) beenden Sie das Programm. Mit der Home-Taste (Haus) minimieren Sie das Programm.
+	]]></string>
+	<string name="helpUs"><![CDATA[
+	    <h1>Wir brauchen Ihre Hilfe!</h1>
+		Bitte helfen Sie %1$s dabei, bekannter zu werden, indem Sie die App Ihren Freunden empfehlen oder eine der folgenden Möglichkeiten nutzen:<br /><br />
+		<a href="https://www.facebook.com/%2$s">Bitte teilen Sie unsere Facebook-Seite und drücken Sie auf &quot;Gefällt mir&quot;!</a><br /><br />
+		<a href="market://details?id=%3$s">Bitte bewerten Sie %1$s im Google Play Store!</a><br /><br />
+		<a href="">Sie können auch mit einer Spende helfen!</a>
+	]]></string>
+    <string-array name="help_spinner"/>
+    <string-array name="help_texts"/>
+    <string name="helpUsTitle">Wir brauchen Ihre Hilfe!</string>
+    <string name="helpUsMessage">Gefällt Ihnen %s? Falls ja, bitte…</string>
+    <string-array name="helpUsItems">
+        <item>geben Sie 5 Sterne im Google Play Store!</item>
+        <item>drücken Sie \"Gefällt mir\" auf Facebook!</item>
+        <item>kontaktieren Sie uns mit Feedback!</item>
+	    <item>sagen Sie mit einer Spende Danke!</item>
+    </string-array>
+	
+	<!-- Info -->
+	<string name="credits"><b>Entwickler</b>\nMichael Heissenberger</string>
+	<string name="translatorsTitle">Übersetzer</string>
+	<string name="translators" />
+	<string name="disclaimer"><b>Haftungsausschluss</b>
+	    \nEs gibt keine Garantie für die Richtigkeit der bereitgestellten Informationen oder für das einwandfreie Funktionieren der bereitgestellten Dienste.
+	    \nDie Dienste werden unentgeltlich bereitgestellt. Es können gegenüber den Entwicklern keine Ansprüche geltend gemacht werden.
+	</string>
+	<string name="contactUs">Kontaktieren Sie uns</string>
+	<string name="donate">Spenden</string>
+	<string name="noMailApp">Keine E-Mail-Applikation verfügbar.</string>
+	<string name="noBrowserApp">Keine Browser-Applikation verfügbar.</string>
+
+	<string name="donateText">
+		Vielen Dank, dass Sie uns etwas spenden möchten.
+		\nEs freut uns, dass Ihnen unsere App gut genug gefällt, dass Sie etwas zurückgeben möchten.
+		\nUm uns für Ihr Dankeschön zu bedanken, können Sie die Werbung deaktivieren, nachdem Sie gespendet haben.
+	</string>
+	<string name="donate1">Weg mit der Werbung! (50c)</string>
+	<string name="donate2">Ein guter Mensch sein! (1€)</string>
+	<string name="donate3">Unsere Liebe erkaufen! (2€)</string>
+	<string name="donateThankYou">Vielen Dank für Ihre Spende! Sie können die Werbung jetzt in den Einstellungen deaktivieren.</string>
+	<string name="connectionError">Leider ist ein Fehler aufgetreten. Sind Sie mit dem Internet verbunden?</string>
+	<string name="alreadyDonated">Das haben Sie sich schon gekauft - aber danke!</string>
+
+	<!-- Dialog fields -->
+	<string name="dialogYes">Ja</string>
+	<string name="dialogNo">Nein</string>
+	<string name="dialogNotNow">Jetzt nicht</string>
+	<string name="dialogNever">Nein, niemals</string>
+	<string name="dialogSave">Speichern</string>
+	<string name="dialogCancel">Abbrechen</string>
+	<string name="dialogOK">Okay</string>
+	
+</resources>

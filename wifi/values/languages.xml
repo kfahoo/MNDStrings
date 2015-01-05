@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="langNames" translatable="false">
+	    <item>@string/systemLanguage</item>
+	    <item>Deutsch</item>
+	    <item>English</item>
+	</string-array>
+	<string-array name="langCodes" translatable="false">
+	    <item>auto</item>
+	    <item>de</item>
+	    <item>en</item>
+	</string-array>
+</resources>
