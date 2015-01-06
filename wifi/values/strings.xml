@@ -88,7 +88,7 @@
 	<string-array name="help_texts">
 		<item><![CDATA[
 			<h1>Permissions</h1>
-			The permissions which WiFi PowerSave requests on your device have been chosen with great care. All permissions are necessary for its full functionality.<br />
+			The permissions which WiFi Better Battery requests on your device have been chosen with great care. All permissions are necessary for its full functionality.<br />
 			Just in case you still have concerns we have listed all requested permissions below, each with an explanation of why we need it.<br /><br />
 			<b>Network permissions:</b> Necessary to list all available networks and to connect to networks.<br />
 			<b>Internet:</b> Used only for Google ads.<br />
@@ -110,7 +110,7 @@
 			A malicious device could use this to collect passwords that are sent during connection attempts or send harmful data to your device.<br />
 			A MAC address uniquely identifies a device.
 			<h1>How it works</h1>
-			When connecting to a network and when the MAC check is on, Wifi PowerSave automatically checks whether the MAC address is known for this network.<br />
+			When connecting to a network and when the MAC check is on, Wifi Better Battery automatically checks whether the MAC address is known for this network.<br />
 			In \"Networks\" you can delete known networks and MAC addresses that you have added at an earlier time.
 		]]></item>
 		<item><![CDATA[
@@ -120,9 +120,9 @@
 		    <b>Theme:</b> Here you can change whether the app uses light or dark colours.<br />
 		    <b>Drawer open on start:</b> Activate this to have the navigation drawer on the left be open when you start the app. Has no effect on tablets, as the drawer is always open on tablets.
 		    <h1>WiFi</h1>
-		    <b>Refresh interval:</b> This settings controls how often Wifi PowerSave scans for networks. The lower this setting is, the quicker WiFi will be enabled when you get in range of a known network, but the higher the battery usage will be.<br />
+		    <b>Refresh interval:</b> This settings controls how often Wifi Better Battery scans for networks. The lower this setting is, the quicker WiFi will be enabled when you get in range of a known network, but the higher the battery usage will be.<br />
 		    <b>MAC check:</b> Here you can disable the MAC check before a connection attempt (not recommended!). For more information about this feature please consult the \"Networks\" help.<br />
-		    <b>Automatic WiFi management:</b> If you turn off this option, all automatic functions of WiFi PowerSave are disabled - it will not automatically turn off WiFi or connect you to saved networks anymore. This means it cannot save battery either! The widget toggles this setting.
+		    <b>Automatic WiFi management:</b> If you turn off this option, all automatic functions of WiFi Better Battery are disabled - it will not automatically turn off WiFi or connect you to saved networks anymore. This means it cannot save battery either! The widget toggles this setting.<br />
 			<b>Legacy auto-scan mode:</b> In Android >= 4.3 auto-scan is implemented by keeping WiFi in a low-power mode, which is more efficient than turning it off and on all the time. On some devices, this feature is broken and it uses full power anyway. Activate this to be able to save power on such a device. If you activate it, please disable the "Scanning always available" option in your device\'s advanced WiFi settings. This setting has no effect on Android < 4.3.
 		]]></item>
 	</string-array>
