@@ -59,6 +59,13 @@
 	<string name="prefAutoFuncsDesc">Automatisch WLAN abschalten und zu bekannten Netzwerken verbinden. Ohne diese Option kann kein Akku gespart werden!</string>
 	<string name="prefLegacy">Kompatibilitäts-Scanmodus</string>
 	<string name="prefLegacyDesc">Kompatibilitäts- statt Niedrigenergiemodus verwenden. Aktivieren Sie dies, wenn Sie hohen Energieverbrauch feststellen. Kein Effekt auf Android &lt; 4.3. Mehr Infos in der Hilfe.</string>
+	<string name="prefCatPlan">Planung</string>
+	<string name="prefPlanEnabled">Planung aktivieren</string>
+	<string name="prefPlanEnabledDesc">Automatische WLAN-Verwaltung zwischen Start- und Endzeit deaktivieren.</string>
+	<string name="prefPlanStart">Startzeit</string>
+	<string name="prefPlanEnd">Endzeit</string>
+	<string name="prefDisableScreenOff">Deaktivieren bei abgeschaltetem Bildschirm</string>
+	<string name="prefDisableScreenOffDesc">WLAN bei abgeschaltetem Bildschirm deaktivieren, um noch mehr Akku zu sparen.</string>
 
 	<string name="macNotifTitle">MAC-Änderung entdeckt!</string>
 	<string name="macNotifText">Das Netzwerk %s wurde gefunden, es wurde aber aufgrund geänderter MAC keine Verbindung hergestellt. Für Optionen bitte hier drücken.</string>
@@ -124,6 +131,9 @@
 		    <b>MAC-Überprüfung:</b> Hier können Sie die MAC-Überprüfung beim Verbinden deaktivieren (nicht empfohlen!) Für mehr Informationen dazu sehen Sie bitte in der Hilfe zu \"Netzwerke\" nach.
 			<b>Automatische WLAN-Verwaltung:</b> Wenn Sie diese Option deaktivieren, werden alle automatischen Funktionen von WLAN-Akkusparer deaktiviert. Ihr WLAN wird damit nicht mehr automatisch deaktiviert und Sie werden auch nicht mehr automatisch mit gespeicherten Netzwerken verbunden. Damit kann natürlich auch kein Akku gespart werden. Das Widget schaltet diese Option ein und aus.
 			<b>Kompatibilitäts-Scanmodus:</b> Auf Android-Version >= 4.3 funktioniert der Auto-Scan, indem das WLAN-Modul in einem Zustand niedriger Energie gehalten wird. Auf manchen Geräten funktioniert diese Funktion aber nicht richtig und das WLAN-Modul verbraucht trotzdem viel Energie. Auf diesen Geräten können Sie diese Option aktivieren, um trotzdem Akku zu sparen. Deaktivieren Sie dann bitte die Option "Scannen immer verfügbar" in den erweiterten WLAN-Einstellungen Ihres Geräts. Kein Effekt auf Android-Versionen < 4.3
+			<h1>Planung</h1>
+			<b>Planung aktivieren:</b> Mit dieser und den <b>Startzeit</b>- und <b>Endzeit</b>-Einstellungen können Sie einstellen, dass WLAN-Akkusparer Ihr WLAN zu bestimmten Zeiten nicht verwalten soll, z.B. in der Nacht.
+			<b>Deaktivieren bei abgeschaltetem Bildschirm:</b> Um noch mehr Akku zu sparen, können Sie WLAN bei abgeschaltetem Bildschirm deaktivieren. Beachten Sie, dass auch laufende Downloads dadurch beendet werden.
 		]]></item>
 	</string-array>
 

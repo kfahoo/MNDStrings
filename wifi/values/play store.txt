@@ -1,0 +1,22 @@
+English translation added!
+
+
+
+Prolong your phone or tablet's battery life with WiFi Better Battery!
+
+
+
+WiFi Better Battery prolongs your phone or tablet's battery life by making sure WiFi/WLAN is only turned on when you need it. When you leave the range of your WiFi network, your device's WiFi is automatically turned off (after a short delay to allow for quick reconnects after a connection hiccup). As soon as you get back in range, your WiFi is turned back on and you are automatically connected back to your favourite network.
+
+There's no need to worry about your network password or connection data - any passwords are entered in the original Android settings tool, and the app does not have the permission to view network traffic.
+
+This app can save power, and potentially also save you some money - forgetting to turn on your WiFi and accidentally downloading something or watching a video over mobile data can get expensive. This will never happen to you again with WiFi Better Battery!
+
+WiFi Better Battery also comes with an optional security feature. It is a little known fact how insecure Android's WiFi functionality is. By default, Android only checks the name of a network before connecting to it. That means that if you have a network saved, and Android detects another network with the same name, Android automatically tries to connect to it. A malicious device could use this to collect passwords that are sent during connection attempts or send harmful data to your device. WiFi Better Battery offers an optional MAC address check to try to prevent such attacks. MAC addresses uniquely identify a device.
+
+The in-app products are ONLY used for donations and for turning off ads. The full functionality of the app is completely free.
+
+The permissions which WiFi Better Battery requests on your device have been chosen with great care. All permissions are necessary for its full functionality.
+Just in case you still have concerns we have listed all requested permissions below, each with an explanation of why we need it.
+Network permissions: Necessary to list all available networks and to connect to networks. The app CANNOT read your network traffic or passwords.
+Internet: Used only for Google ads.

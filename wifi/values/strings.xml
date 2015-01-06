@@ -1,7 +1,3 @@
-<!--
-	English translation added!
-	@translators: Please translate the text above for the changelog.
--->
 <resources>
 	<string name="app_name">WiFi Better Battery</string>
 	<string name="action_wifi">WiFi Manager</string>
@@ -63,6 +59,13 @@
 	<string name="prefAutoFuncsDesc">Automatically switch WiFi off and connect to known networks. Required to save battery!</string>
 	<string name="prefLegacy">Legacy auto-scan mode</string>
 	<string name="prefLegacyDesc">Use legacy scanning mode instead of low-power states. Activate this if you see high power usage. No effect &lt; Android 4.3. See help for more info.</string>
+	<string name="prefCatPlan">Planning</string>
+	<string name="prefPlanEnabled">Enable planning</string>
+	<string name="prefPlanEnabledDesc">Switch WiFi auto-control off between Start time and End time.</string>
+	<string name="prefPlanStart">Start time</string>
+	<string name="prefPlanEnd">End time</string>
+	<string name="prefDisableScreenOff">Disable with screen off</string>
+	<string name="prefDisableScreenOffDesc">Disable WiFi when the screen of your device is turned off to save even more battery.</string>
 
 	<string name="macNotifTitle">MAC change detected!</string>
 	<string name="macNotifText">The network %s was found, but no connection was established because its MAC address changed. Please tap here for options.</string>
@@ -122,9 +125,12 @@
 		    <h1>WiFi</h1>
 		    <b>Refresh interval:</b> This settings controls how often Wifi Better Battery scans for networks. The lower this setting is, the quicker WiFi will be enabled when you get in range of a known network, but the higher the battery usage will be.<br />
 		    <b>MAC check:</b> Here you can disable the MAC check before a connection attempt (not recommended!). For more information about this feature please consult the \"Networks\" help.<br />
-		    <b>Automatic WiFi management:</b> If you turn off this option, all automatic functions of WiFi Better Battery are disabled - it will not automatically turn off WiFi or connect you to saved networks anymore. This means it cannot save battery either! The widget toggles this setting.<br />
+		    <b>Automatic WiFi management:</b> If you turn off this option, all automatic functions of WiFi Better Battery are disabled - it will not automatically turn off WiFi or connect you to saved networks anymore. This means it cannot save battery either! The widget toggles this setting.
 			<b>Legacy auto-scan mode:</b> In Android >= 4.3 auto-scan is implemented by keeping WiFi in a low-power mode, which is more efficient than turning it off and on all the time. On some devices, this feature is broken and it uses full power anyway. Activate this to be able to save power on such a device. If you activate it, please disable the "Scanning always available" option in your device\'s advanced WiFi settings. This setting has no effect on Android < 4.3.
-		]]></item>
+			<h1>Planning</h1>
+			<b>Enable Planning:</b> This setting, and the <b>Start time</b> and <b>End time</b> settings can be used to make WiFi Better Battery stop managing WiFi at certain times, for instance during the night.
+			<b>Disable with screen off:</b> To save even more battery, you can enable this setting so WiFi is turned off when your screen is turned off. This function does not check for active downloads.
+	]]></item>
 	</string-array>
 
 	<string name="dialogConnect">Connect</string>
