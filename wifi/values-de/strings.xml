@@ -54,18 +54,24 @@
 	<string name="prefRefreshTime">Aktualisierungsintervall</string>
 	<string name="prefRefreshTimeDesc">Zeit zwischen Netzwerksuchen. Je kleiner dieser Wert, desto schneller werden Sie mit WLANs verbunden - aber desto größer der Akkuverbrauch.</string>
 	<string name="prefMacCheck">MAC-Überprüfung</string>
-	<string name="prefMacCheckDesc">Optionale Sicherheitsfunktion. Für mehr Informationen sehen Sie bitte in der Hilfe nach.</string>
+	<string name="prefMacCheckDesc">MAC-Überprüfung beim Verbinden deaktivieren (nicht empfohlen!) Für mehr Informationen dazu sehen Sie bitte in der Hilfe zu \"Netzwerke\" nach.</string>
 	<string name="prefAutoFuncs">Automatische WLAN-Verwaltung</string>
-	<string name="prefAutoFuncsDesc">Automatisch WLAN abschalten und zu bekannten Netzwerken verbinden. Ohne diese Option kann kein Akku gespart werden!</string>
+	<string name="prefAutoFuncsDesc">Automatisch WLAN an- und abschalten und zu bekannten Netzwerken verbinden. Ohne diese Option kann kein Akku gespart werden! Für den schnellen Zugriff gibt es für diese Einstellung ein Widget.</string>
 	<string name="prefLegacy">Kompatibilitäts-Scanmodus</string>
-	<string name="prefLegacyDesc">Kompatibilitäts- statt Niedrigenergiemodus verwenden. Aktivieren Sie dies, wenn Sie hohen Energieverbrauch feststellen. Kein Effekt auf Android &lt; 4.3. Mehr Infos in der Hilfe.</string>
-	<string name="prefCatPlan">Planung</string>
+	<string name="prefLegacyDesc">Auf Android &gt;= 4.3 wird ein Niedrigenergie-WLAN-Modus verwendet. Auf manchen Geräten wird aber trotzdem viel Energie verbraucht. Bei hohem Akkuverbrauch aktivieren Sie bitte diese Option und deaktivieren Sie die Option \"Scannen immer verfügbar\" in den erweiterten WLAN-Einstellungen Ihres Geräts. Nur für Android &gt;= 4.3</string>
+	<string name="prefCatPlan">Automatisierung</string>
 	<string name="prefPlanEnabled">Planung aktivieren</string>
-	<string name="prefPlanEnabledDesc">Automatische WLAN-Verwaltung zwischen Start- und Endzeit deaktivieren.</string>
+	<string name="prefPlanEnabledDesc">Mit dieser und den \"Startzeit\"- und \"Endzeit\"-Einstellungen können Sie einstellen, dass WLAN-Akkusparer Ihr WLAN zu bestimmten Zeiten deaktivieren soll, z.B. in der Nacht.</string>
 	<string name="prefPlanStart">Startzeit</string>
 	<string name="prefPlanEnd">Endzeit</string>
 	<string name="prefDisableScreenOff">Deaktivieren bei abgeschaltetem Bildschirm</string>
-	<string name="prefDisableScreenOffDesc">WLAN bei abgeschaltetem Bildschirm deaktivieren, um noch mehr Akku zu sparen.</string>
+	<string name="prefDisableScreenOffDesc">Scannen bei abgeschaltetem Bildschirm deaktivieren, um noch mehr Akku zu sparen.</string>
+	<string name="prefDisconnectScreenOff">Trennen bei abgeschaltetem Bildschirm</string>
+	<string name="prefDisconnectScreenOffDesc">Verbindung trennen und WLAN deaktivieren, wenn der Bildschirm abgeschaltet wird. Beachten Sie, dass auch laufende Downloads dadurch beendet werden.</string>
+	<string name="prefScanScreenOn">Scannen bei Bildschirmaktivierung</string>
+	<string name="prefScanScreenOnDesc">Bei der Reaktivierung Ihres Geräts einen Scan nach Netzwerken starten.</string>
+	<string name="prefScanConnected">Bei Verbindung scannen</string>
+	<string name="prefScanConnectedDesc">Verbraucht mehr Akku, ermöglicht aber WLAN-Roaming (fließendes Umschalten zwischen Netzwerken je nach Verbindungsqualität)</string>
 
 	<string name="macNotifTitle">MAC-Änderung entdeckt!</string>
 	<string name="macNotifText">Das Netzwerk %s wurde gefunden, es wurde aber aufgrund geänderter MAC keine Verbindung hergestellt. Für Optionen bitte hier drücken.</string>
@@ -85,7 +91,6 @@
 		<item>Allgemein</item>
 		<item>@string/action_wifi</item>
 		<item>@string/action_networks</item>
-		<item>@string/action_settings</item>
 	</string-array>
 
 	<string-array name="help_texts">
@@ -119,21 +124,6 @@
 			<h1>Funktionsweise</h1>
 			Beim Verbinden mit einem Netzwerk wird mit aktivierer "MAC-Überprüfung"-Einstellung automatisch überprüft, ob die MAC-Adresse mit diesem Netzwerk bekannt ist.<br />
 			In \"Netzwerke\" können Sie bekannte Netzwerke und bekannte MAC-Adressen, die Sie zu einem früheren Zeitpunkt zugelassen haben, wieder löschen.
-		]]></item>
-		<item><![CDATA[
-			<h1>Allgemein</h1>
-		    <b>Sprache:</b> Hier können Sie die Sprache der Anwendung ändern.<br />
-		    <b>Werbung anzeigen:</b> Bitte unterstützen Sie uns, indem Sie hier unaufdringliche Werbung aktivieren.<br />
-		    <b>Farbschema:</b> Hier können Sie einstellen, ob die App helle oder dunkle Farben verwendet.<br />
-		    <b>Seitenleiste offen:</b> Wenn Sie diese Option aktivieren, ist die Seitenleiste beim Start der App geöffnet. Diese Option hat auf Tablets keinen Effekt, da die Seitenleiste dort immer offen ist.
-		    <h1>WLAN</h1>
-		    <b>Aktualisierungsintervall:</b> Hier können Sie einstellen, wie häufig nach neuen Netzwerken gesucht wird. Je geringer diese Einstellung, desto schneller wird WLAN aktiviert, wenn Sie sich in Reichweite eines Netzwerks begeben, aber desto mehr Akku wird auch verbraucht.<br />
-		    <b>MAC-Überprüfung:</b> Hier können Sie die MAC-Überprüfung beim Verbinden deaktivieren (nicht empfohlen!) Für mehr Informationen dazu sehen Sie bitte in der Hilfe zu \"Netzwerke\" nach.
-			<b>Automatische WLAN-Verwaltung:</b> Wenn Sie diese Option deaktivieren, werden alle automatischen Funktionen von WLAN-Akkusparer deaktiviert. Ihr WLAN wird damit nicht mehr automatisch deaktiviert und Sie werden auch nicht mehr automatisch mit gespeicherten Netzwerken verbunden. Damit kann natürlich auch kein Akku gespart werden. Das Widget schaltet diese Option ein und aus.
-			<b>Kompatibilitäts-Scanmodus:</b> Auf Android-Version >= 4.3 funktioniert der Auto-Scan, indem das WLAN-Modul in einem Zustand niedriger Energie gehalten wird. Auf manchen Geräten funktioniert diese Funktion aber nicht richtig und das WLAN-Modul verbraucht trotzdem viel Energie. Auf diesen Geräten können Sie diese Option aktivieren, um trotzdem Akku zu sparen. Deaktivieren Sie dann bitte die Option "Scannen immer verfügbar" in den erweiterten WLAN-Einstellungen Ihres Geräts. Kein Effekt auf Android-Versionen < 4.3
-			<h1>Planung</h1>
-			<b>Planung aktivieren:</b> Mit dieser und den <b>Startzeit</b>- und <b>Endzeit</b>-Einstellungen können Sie einstellen, dass WLAN-Akkusparer Ihr WLAN zu bestimmten Zeiten nicht verwalten soll, z.B. in der Nacht.
-			<b>Deaktivieren bei abgeschaltetem Bildschirm:</b> Um noch mehr Akku zu sparen, können Sie WLAN bei abgeschaltetem Bildschirm deaktivieren. Beachten Sie, dass auch laufende Downloads dadurch beendet werden.
 		]]></item>
 	</string-array>
 
