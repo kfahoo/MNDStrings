@@ -65,7 +65,7 @@
 	<string name="prefPlanStart">Start time</string>
 	<string name="prefPlanEnd">End time</string>
 	<string name="prefDisableScreenOff">Disable with screen off</string>
-	<string name="prefDisableScreenOffDesc">Disable scanning whle the screen of your device is turned off to save even more battery.</string>
+	<string name="prefDisableScreenOffDesc">Disable scanning while the screen of your device is turned off to save even more battery.</string>
 	<string name="prefDisconnectScreenOff">Disconnect with screen off</string>
 	<string name="prefDisconnectScreenOffDesc">Actively disconnect from any network you are connected to when turning off your screen. This function does not check for active downloads.</string>
 	<string name="prefScanScreenOn">Scan at screen on</string>
