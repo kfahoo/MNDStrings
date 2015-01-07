@@ -40,7 +40,7 @@
 	<string name="connectingTo">Подключаемся к %s</string>
 	<string name="networkUnknown">
 		У Вас пока нет сохраненных данных для этой сети.
-		\nКогда Вы нажмете Okay, откроются системные настройки Android.
+		\nКогда Вы нажмете Понятно, откроются системные настройки Android.
 		\nПожалуйста подключитесь к сети там.
 	</string>
 
@@ -63,7 +63,15 @@
 	<string name="prefAutoFuncsDesc">Автоматически отключает WiFi и соединяется с известными сетями. Необходимо для экономии заряда батареи!</string>
 	<string name="prefLegacy">Устаревший режим сканирования сетей</string>
 	<string name="prefLegacyDesc">Использовать устаревший режим сканирования вместо режима низкого энергопотребления. Активируйте эту опцию если происходит быстрая разрядка батареи. Не будет эффекта &lt; Android 4.3. Просмотрите раздел Помощь для получения дополнительной информации.</string>
-
+	
+	<string name="prefCatPlan">Расписание</string>
+	<string name="prefPlanEnabled">Включить расписание</string>
+	<string name="prefPlanEnabledDesc">Выключать автоматическое управление WiFi в промежутке между Временем начала и Временем окончания.</string>
+	<string name="prefPlanStart">Время начала</string>
+	<string name="prefPlanEnd">Время окончания</string>
+	<string name="prefDisableScreenOff">Отключать при отключении экрана</string>
+	<string name="prefDisableScreenOffDesc">Отключать WiFi когда экран Вашего устройства выключен, чтобы экономить еще больше заряда батареи.</string>
+	
 	<string name="macNotifTitle">Обнаружено изменение MAC адреса!</string>
 	<string name="macNotifText">Сеть %s найдена, но подключение не было установлено из-за изменения MAC адреса. Пожалуйста нажмите здесь для показа опций.</string>
 
