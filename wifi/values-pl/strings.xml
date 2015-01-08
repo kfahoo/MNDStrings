@@ -1,95 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<string name="app_name">WiFi Better Battery</string>
+	<string name="action_wifi">Zarządzanie WiFi</string>
+	<string name="action_networks">Sieci</string>
+	<string name="action_refresh">Skanuj</string>
+	<string name="nActionConnect">Połącz raz</string>
+	<string name="nActionAdd">Łącz automatycznie</string>
+	<string name="nActionDisconnect">Rozłącz</string>
+	<string name="nActionRemove">Wyłącz automatyczne łaczenie</string>
+	<string name="undo">Cofnij</string>
+	<string name="widgetDescription">Przełączanie automatycznego zarządzania WiFi</string>
 
-	<!-- Actions -->
-	<string name="app_name"/>
-	<string name="drawer_open">Otwórz menu</string>
-	<string name="drawer_close">Zamknij menu</string>
-	<string name="action_settings">Ustawienia</string>
-	<string name="action_help">Pomoc</string>
-	<string name="action_about">O progamie</string>
-	<string name="expand">Rozwiń</string>
-	<string name="collapse">Zwiń</string>
-	<string name="action_add">Dodaj</string>
-	<string name="action_edit">Edytuj</string>
-	<string name="action_delete">Usuń</string>
-	<string name="pleaseWait">Poczekaj chwilke</string>
-	
-	<!-- Preferences -->
-	<string name="prefCatGeneral">Ogólne</string>
-	<string name="prefLang">Język</string>
-	<string name="systemLanguage">Język systemu</string>
-	<string name="prefAds">Pokaż reklamy</string>
-	<string name="prefAdsDesc">Pozwól na pokazywanie dyskretnych reklam by wesprzeć autora.</string>
-	<string name="prefTheme">Motyw</string>
-	<string name="prefThemeDesc">Tutaj możesz wybrać między jasnym a ciemnym motywem.</string>
-	<string name="themeLight">Jasny</string>
-	<string name="themeDark">Ciemny</string>
-	<string name="prefDrawer">Menu podczas uruchomienia </string>
-	<string name="prefDrawerDesc">Jesli to włączysz przy starcie po lewej stronie pojawi menu. (Nie działa na tabletach)</string>
-	<string name="adsAsk">
-		Rozumiemy niechęć do reklam, one potrafią być irytujące. ale tworzenie aplikacji to ciężka praca.
-		\nJeśli bardzo nie chcesz oglądać reklam, proszę rozważ wsparcie finansowe.
+	<string name="wifiLevel">Jakośc połączenia</string>
+	<string name="wifiConnected">Połączono</string>
+	<string name="wifiEmpty">Nie znaleziono żadnych sieci.</string>
+	<string name="newMac">
+		Łączysz się z tą siecią pierwszy raz!
+		\nMAC adres routera to %s. Jeśli to możliwe zweryfikuj go.
+		\nNie przejmuj się że widzisz to powiadmienie - wyświetliło się ono tylko jako mechanizm ochronny.
+		\nJeśli jesteś pewnien że łączysz się z właściwą siecią, po prostu naciśnij \"Połącz\".
+		\nMożesz wyłączyć to ostrzeżenie w Ustawieniach.
 	</string>
-	<!-- <string name="adsAsk">We use ads to be able to offer you our services for free. Please consider keeping them enabled. Are you sure you wish to disable ads?</string>
-	<string name="adsThankYou">Thank you!</string>-->
-	
-	<!-- Help -->
-   	<string name="helpNav"><![CDATA[
-		<h1>Nawigacja</h1>
-		Dotykając przycisk z trzema poziomymi liniami w lewem górnym rogu, otworzysz menu nawigacyjne. (Na tabletach jest ono zawsze otwarte.)<br />
-		Do wszystkich pozostałych stron pomocy możesz uzyskać dostęp dotykając &quot;%s&quot; powyżej.
+	<string name="macChanged">
+		Zmienił się adres MAC routera!
+		\nTo może oznaczać że inna sieć podszywa się pod sieć %1$s!
+		\nTo powiadomienie pokazuje się również w sytuacji kiedy: 1) router sieciowy został wymieniony. 2) W sieci używanych jest więcej routerów.
+		\nNieznany adres MAC: %2$s.
+		\nMożesz wyłączyć to ostrzeżenie w Ustawieniach.
+	</string>
+	<string name="macAdd">Dodaj ten adres MAC do listy znanych adresów dla tej sieci</string>
+	<string name="macDontConnect">Nie łącz</string>
+	<string name="networksEmpty">Nie zapisano jeszcze żadnych sieci!</string>
+	<string name="macsEmpty">Nie zapisano jeszcze żadnego adresu MAC dla tej sieci!</string>
+	<string name="networkDeleted">Skasowano sieć: %s</string>
+	<string name="macDeleted">Skasowano MAC: %s</string>
+	<string name="connectingTo">Łączenie z %s</string>
+	<string name="networkUnknown">
+		Nie masz jeszcze zapisanych żadnych danych dla tej sieci.
+		\nKiedy dotkniesz Okej, otworzy się systemowy menedżer połączeń.
+		\nPołącz się z siecią używajac go.
+	</string>
+
+	<string name="macQuestion"><![CDATA[
+		Czy chciałbyś aktywować sprawdzanie adresów MAC?<br />
+		Domyślnie, Android sprawdza <i>tylko</i> nazwe sieci przed połączeniem się z nią.<br />
+		To oznacza że jeśli masz już zapisaną sieć, a Android wykryje inną o tej samej nazwie będzie próbował połączyć sięz nią automatycznie.<br />
+		Możliwe że został użyty sprzęt ze złosliwym oprogramowaniem by zbierać hasła lub wysyłać szkodliwe dane do Twojego urządzenia.<br />
+		Sprawdzanie tego w ten sposób umozliwia weryfikacje tożsamości sieci.<br />
+		Stanowczo zaleca się włączenie tej opcji, ale spowoduje to też wyświetlanie kilku dodatkowych ostrzeżeń.
 	]]></string>
-	<string name="helpUs"><![CDATA[
-	    <h1>Potrzebujemy Twojej pomocy!</h1>
-		Proszę pomóż %1$s zdobyć popularność poprzez polecenie go swoim znajomym lub poprzez jedną z poniższych czynności:<br /><br />
-		<a href="https://www.facebook.com/%2$s">Proszę polub i udostępnij naszą strone na Facebooku!</a><br /><br />
-		<a href="market://details?id=%3$s">Proszę oceń %1$s w sklepie Google Play!</a><br /><br />
-		<a href="">Możesz rownież pomoć wspomagając finansowo!</a>
-	]]></string>
-    <string-array name="help_spinner"/>
-    <string-array name="help_texts"/>
-    <string name="helpUsTitle">Potrzebujemy Twojej pomocy!</string>
-    <string name="helpUsMessage">Podoba Ci się %s? Jeśli tak, proszę…</string>
-    <string-array name="helpUsItems">
-        <item>oceń go w sklepie Google Play dając mu 5 gwiazdek</item>
-        <item>polub go na Facebooku!</item>
-        <item>napisz do nas!</item>
-	    <item>wesprzyj nas finansowo!</item>
-    </string-array>
+	<string name="compatibilityModeActive">Aktywowano tryb zgodności. Możesz to zmienić w opcjach.</string>
 	
-	<!-- Info -->
-	<string name="credits"><b>Autor</b>\nMichael Heissenberger</string>
-	<string name="translatorsTitle">Osoby tłumaczące</string>
-	<string name="translators"/>
-	<string name="disclaimer"><b>Warunki użytkowania</b>
-	    \nTa aplikacja ma na celu udzielenie wskazówek i porad, jako darmowa pomoc dla osób które jej potrzebują. Ponieważ jest to aplikacja zewnętrzna, nie możemy zagwarantować, że będzie działać poprawnie czy nawet że będziemy w stanie dać właściwą poradę.
-	    \nUżywając tej aplikacji, użytkownik zgadza się nie obarczać nas odpowiedzialnością za jakiekolwiek szkody lub problemy, które mogą być wynikiem korzystania z tej aplikacji.
-	</string>
-	<string name="contactUs">Napisz</string>
-	<string name="donate">Wesprzyj</string>
-	<string name="noMailApp">Nie znaleziono klienta poczty.</string>
-	<string name="noBrowserApp">Nie znaleziono przeglądarki.</string>
+	<string name="prefCatWifi">WiFi</string>
+	<string name="prefRefreshTime">Częstotliwość odświeżania</string>
+	<string name="prefRefreshTimeDesc">Jak często sprawdzać czy sieć jest w zasięgu. Im mniejszy interwał, szybciej się połączysz, ale też zwiększy się zużycie prądu!</string>
+	<string name="prefMacCheck">Kontrola MAC</string>
+	<string name="prefMacCheckDesc">Tutaj możesz wyłączyć sprawdzanie adresu MAC przed próbą połączenia (nie polecane!). Aby uzyskać więcej informacji o tym mechanizmie zajrzyj do pomocy w \"Sieciach\".</string>
+	<string name="prefAutoFuncs">Automatyczne zarządzanie WiFi</string>
+	<string name="prefAutoFuncsDesc">Automagicznie włączaj i wyłączaj WiFi oraz łącz się z zapisanymi sieciami. Jest to wymagane by oszczędzać baterie! Jest też widżet dla szybszego dostępu dla tego ustawienia.</string>
+	<string name="prefLegacy">Autoskanowanie w trybie zgodnosci</string>
+	<string name="prefLegacyDesc">W wersjach >= 4.3 wiFi do automatycznego skanowania używa małej mocy, co jest bardziej wydajne niż ciągłe włączanie i wyłączanie WiFi. Na niektórych urządzeniach, ten mechanizm nie działa prawidłowo i używana jest pełna moc. Jeśli zaobserwujesz zwiększone zużycie prądu włacz to i wyłącz opcje "Skanowanie zawsze dostępne" w zaawansowanych ustawieniach WiFi. W wersjach &lt; 4.3 to ustawienie nie daje żadnego efektu.</string>
+	<string name="prefCatPlan">Automatyzacja</string>
+	<string name="prefPlanEnabled">Włącz planowanie</string>
+	<string name="prefPlanEnabledDesc">This setting, along with the \"Start time\" and <b>End time</b> settings can be used to make WiFi Better Battery switch off WiFi at certain times, for instance during the night.</string>
+	<string name="prefPlanStart">Start time</string>
+	<string name="prefPlanEnd">End time</string>
+	<string name="prefDisableScreenOff">Wyłącz wraz z wyłączeniem się ekranu</string>
+	<string name="prefDisableScreenOffDesc">By jeszcze zmniejszyć zużycie prądu wyłącz skanowanie gdy ekran Twojego urządzenia jest wyłączony.</string>
+	<string name="prefDisconnectScreenOff">Rozłącz wraz z wyłączeniem się ekranu</string>
+	<string name="prefDisconnectScreenOffDesc">Automatycznie rozłącz się z każdą siecią do której jesteś podłączony wraz jesli ekran zostanie wyłączony. Ta funkcja nie sprawdza aktywnych połączeń (np. ściąganych plików).</string>
+	<string name="prefScanScreenOn">Skanuj podczas włączania ekranu</string>
+	<string name="prefScanScreenOnDesc">Zacznij skanowanie sieci WiFi podczas właczenia ekranu.</string>
+	<string name="prefScanConnected">Skanuj kiedy jesteś podłączony</string>
+	<string name="prefScanConnectedDesc">Zużywa to więcej prądu, ale umożliwia korzystanie z roamingu WiFI(przełączanie się do sieci z lepszymi parametrami np. siła sygnału)</string>
 
-	<string name="donateText">
-		Dziękujemy za rozważenie wsparcia nas!
-		\nCieszymy się że aplikacja spodobała Ci się na tyle że zechciałeś/aś dać coś od siebie.
-		\nBy podziękować ci za wsparcie, jeśli to zrobisz, będziesz mogł wyłączyć reklamy!
-	</string>
-	<string name="donate1">Pozbadź się reklam! (%s)</string>
-	<string name="donate2">Bądź dobrym człowiekiem! (%s)</string>
-	<string name="donate3">Kup naszą miłość! (%s)</string>
-	<string name="donateThankYou">Dziękujemy bardzo za wsparcie! Możęsz teraz wyłączyć reklamy w Ustawieniach.</string>
-	<string name="connectionError">Niestety wystąpił błąd. Może być problem z połączeniem internetowym.</string>
-	<string name="alreadyDonated">Już to kupiłeś. Wielkie dzięki</string>
+	<string name="macNotifTitle">Wykryto zmiane adresu MAC!</string>
+	<string name="macNotifText">Znaleziono sieć %s, ale ponieważ wykryto zmiane adresu MAC połączenie nie zostało nawiązane. Dotknij tu by uzyskać więcej opcji.</string>
 
-	<!-- Dialog fields -->
-	<string name="dialogYes">Tak</string>
-	<string name="dialogNo">Nie</string>
-	<string name="dialogNotNow">Nie teraz</string>
-	<string name="dialogNever">Nie, i nie pytaj ponownie</string>
-	<string name="dialogSave">Zapisz</string>
-	<string name="dialogCancel">Anuluj</string>
-	<string name="dialogOK">Okej</string>
+	<string-array name="refreshTimeNames">
+		<item>30 sekund</item>
+		<item>1 minuta</item>
+		<item>2 minuty</item>
+		<item>3 minuty</item>
+		<item>5 minut</item>
+		<item>10 minut</item>
+		<item>Użytkownika…</item>
+	</string-array>
+	<string name="timePickerMinutes">Minut</string>
 
+	<string-array name="help_spinner">
+		<item>Ogólne</item>
+		<item>@string/action_wifi</item>
+		<item>@string/action_networks</item>
+	</string-array>
+
+	<string-array name="help_texts">
+		<item><![CDATA[
+			<h1>Pozwolenia</h1>
+			Uprawnienia o które prosi aplikacja zostały przemyślane i dobrane z wielką uwagą. Wszystkie te pozwolenia są potrzebe aby aplikacja mogła uzyskać pełną funkcjonalność.<br />
+			Gdybyś przypadkiem miał jeszcze jakieś obawy, poniżej wymieniliśmy wszystkie żądane pozwolenia, każde z wyjasnieniem dlaczego go potrzebujemy.<br /><br />
+			<b>Pozwolenia sieciowe:</b> Są potrzebne aby wyszukać wszystkie dostępne sieci oraz by się z nimi łączyć.<br />
+			<b>Internet:</b> Używany tylko do po połączeń reklam google.<br />
+		]]></item>
+		<item><![CDATA[
+			<h1>Lista sieci</h1>
+			Po otwarciu aplikacji, pierwszą rzeczą, którą widzisz jest lista dostępnych sieci. WiFi nie musi być włączone dla tej funkcji.<br />
+			Możesz tutaj zobaczyć nazwy oraz siłe sygnału poszczególnych sieci. Po dotknięciu nazwy sieci, wyświetlane są dla niej opcje.
+			<h1>Ostrzeżenia</h1>
+			Jeśli w Ustawieniach włączona jest opcja sprawdzania adresów MAC, podczas połączenia może wyświetlić się ostrzeżenie. Aby uzyskać więcej informacji o tym mechanizmie zajrzyj do pomocy w \"Sieciach\".<br />
+			W przypadku problemów z połączeniem, należy postępować zgodnie z instrukcjami oferowanych przez ustawienia systemowe.
+		]]></item>
+		<item><![CDATA[
+			Funkcja ta jest przede wszystkim istotna, jeśli kontrola MAC jest włączona w ustawieniach (zalecane!).
+			<h1>Kontrola MAC</h1>
+			Kontrola adresu MAC jest dodatkowym zabezpieczeniem sprawdzającym czy sieć z którą się łączysz jest rzeczywiście tą z którą chcesz się połączyć.<br />
+			Domyślnie, Android sprawdza <i>tylko</i> nazwe sieci przed połączeniem się z nią.<br />
+			TTo oznacza że jeśli masz już zapisaną sieć, a Android wykryje inną o tej samej nazwie będzie próbował połączyć sięz nią automatycznie.<br />
+			Możliwe że został użyty sprzęt ze złosliwym oprogramowaniem by zbierać hasła lub wysyłać szkodliwe dane do Twojego urządzenia.<br />
+			Adres MAC jednoznacznie identyfikuje urządzenie.
+			<h1>Jak to działa</h1>
+			Podczas łączenia się z siecią gdy włączona jest kontrola MAC, Wifi Better Battery automatycznie sprawdza czy adres MAC danej sieci jest już zapisany dany adres MAC.<br />
+			W \"Sieciach\" możesz usunąc zapisane sieci jak i adresy MAC które dodałeś wcześniej.
+		]]></item>
+	</string-array>
+
+	<string name="dialogConnect">Połącz</string>
 </resources>
