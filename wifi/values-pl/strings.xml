@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">WiFi Better Battery</string>
+	<string name="action_wifi">Zarządzanie WiFi</string>
+	<string name="action_networks">Sieci</string>
+	<string name="action_refresh">Skanuj</string>
+	<string name="nActionConnect">Połącz raz</string>
+	<string name="nActionAdd">Łącz automatycznie</string>
+	<string name="nActionDisconnect">Rozłącz</string>
+	<string name="nActionRemove">Wyłącz automatyczne łaczenie</string>
+	<string name="undo">Cofnij</string>
+	<string name="widgetDescription">Przełączanie automatycznego zarządzania WiFi</string>
+
+	<string name="wifiLevel">Jakośc połączenia</string>
+	<string name="wifiConnected">Połączono</string>
+	<string name="wifiEmpty">Nie znaleziono żadnych sieci.</string>
+	<string name="newMac">
+		Łączysz się z tą siecią pierwszy raz!
+		\nMAC adres routera to %s. Jeśli to możliwe zweryfikuj go.
+		\nNie przejmuj się że widzisz to powiadmienie - wyświetliło się ono tylko jako mechanizm ochronny.
+		\nJeśli jesteś pewnien że łączysz się z właściwą siecią, po prostu naciśnij \"Połącz\".
+		\nMożesz wyłączyć to ostrzeżenie w Ustawieniach.
+	</string>
+	<string name="macChanged">
+		Zmienił się adres MAC routera!
+		\nTo może oznaczać że inna sieć podszywa się pod sieć %1$s!
+		\nTo powiadomienie pokazuje się również w sytuacji kiedy: 1) router sieciowy został wymieniony. 2) W sieci używanych jest więcej routerów.
+		\nNieznany adres MAC: %2$s.
+		\nMożesz wyłączyć to ostrzeżenie w Ustawieniach.
+	</string>
+	<string name="macAdd">Dodaj ten adres MAC do listy znanych adresów dla tej sieci</string>
+	<string name="macDontConnect">Nie łącz</string>
+	<string name="networksEmpty">Nie zapisano jeszcze żadnych sieci!</string>
+	<string name="macsEmpty">Nie zapisano jeszcze żadnego adresu MAC dla tej sieci!</string>
+	<string name="networkDeleted">Skasowano sieć: %s</string>
+	<string name="macDeleted">Skasowano MAC: %s</string>
+	<string name="connectingTo">Łączenie z %s</string>
+	<string name="networkUnknown">
+		Nie masz jeszcze zapisanych żadnych danych dla tej sieci.
+		\nKiedy dotkniesz Okej, otworzy się systemowy menedżer połączeń.
+		\nPołącz się z siecią używajac go.
+	</string>
+
+	<string name="macQuestion"><![CDATA[
+		Czy chciałbyś aktywować sprawdzanie adresów MAC?<br />
+		Domyślnie, Android sprawdza <i>tylko</i> nazwe sieci przed połączeniem się z nią.<br />
+		To oznacza że jeśli masz już zapisaną sieć, a Android wykryje inną o tej samej nazwie będzie próbował połączyć sięz nią automatycznie.<br />
+		Możliwe że został użyty sprzęt ze złosliwym oprogramowaniem by zbierać hasła lub wysyłać szkodliwe dane do Twojego urządzenia.<br />
+		Sprawdzanie tego w ten sposób umozliwia weryfikacje tożsamości sieci.<br />
+		Stanowczo zaleca się włączenie tej opcji, ale spowoduje to też wyświetlanie kilku dodatkowych ostrzeżeń.
+	]]></string>
+	<string name="compatibilityModeActive">Aktywowano tryb zgodności. Możesz to zmienić w opcjach.</string>
+	
+	<string name="prefCatWifi">WiFi</string>
+	<string name="prefRefreshTime">Częstotliwość odświeżania</string>
+	<string name="prefRefreshTimeDesc">Jak często sprawdzać czy sieć jest w zasięgu. Im mniejszy interwał, szybciej się połączysz, ale też zwiększy się zużycie prądu!</string>
+	<string name="prefMacCheck">Kontrola MAC</string>
+	<string name="prefMacCheckDesc">Tutaj możesz wyłączyć sprawdzanie adresu MAC przed próbą połączenia (nie polecane!). Aby uzyskać więcej informacji o tym mechanizmie zajrzyj do pomocy w \"Sieciach\".</string>
+	<string name="prefAutoFuncs">Automatyczne zarządzanie WiFi</string>
+	<string name="prefAutoFuncsDesc">Automagicznie włączaj i wyłączaj WiFi oraz łącz się z zapisanymi sieciami. Jest to wymagane by oszczędzać baterie! Jest też widżet dla szybszego dostępu dla tego ustawienia.</string>
+	<string name="prefLegacy">Autoskanowanie w trybie zgodnosci</string>
+	<string name="prefLegacyDesc">W wersjach >= 4.3 wiFi do automatycznego skanowania używa małej mocy, co jest bardziej wydajne niż ciągłe włączanie i wyłączanie WiFi. Na niektórych urządzeniach, ten mechanizm nie działa prawidłowo i używana jest pełna moc. Jeśli zaobserwujesz zwiększone zużycie prądu włacz to i wyłącz opcje "Skanowanie zawsze dostępne" w zaawansowanych ustawieniach WiFi. W wersjach &lt; 4.3 to ustawienie nie daje żadnego efektu.</string>
+	<string name="prefCatPlan">Automatyzacja</string>
+	<string name="prefPlanEnabled">Włącz planowanie</string>
+	<string name="prefPlanEnabledDesc">This setting, along with the \"Start time\" and <b>End time</b> settings can be used to make WiFi Better Battery switch off WiFi at certain times, for instance during the night.</string>
+	<string name="prefPlanStart">Start time</string>
+	<string name="prefPlanEnd">End time</string>
+	<string name="prefDisableScreenOff">Wyłącz wraz z wyłączeniem się ekranu</string>
+	<string name="prefDisableScreenOffDesc">By jeszcze zmniejszyć zużycie prądu wyłącz skanowanie gdy ekran Twojego urządzenia jest wyłączony.</string>
+	<string name="prefDisconnectScreenOff">Rozłącz wraz z wyłączeniem się ekranu</string>
+	<string name="prefDisconnectScreenOffDesc">Automatycznie rozłącz się z każdą siecią do której jesteś podłączony wraz jesli ekran zostanie wyłączony. Ta funkcja nie sprawdza aktywnych połączeń (np. ściąganych plików).</string>
+	<string name="prefScanScreenOn">Skanuj podczas włączania ekranu</string>
+	<string name="prefScanScreenOnDesc">Zacznij skanowanie sieci WiFi podczas właczenia ekranu.</string>
+	<string name="prefScanConnected">Skanuj kiedy jesteś podłączony</string>
+	<string name="prefScanConnectedDesc">Zużywa to więcej prądu, ale umożliwia korzystanie z roamingu WiFI(przełączanie się do sieci z lepszymi parametrami np. siła sygnału)</string>
+
+	<string name="macNotifTitle">Wykryto zmiane adresu MAC!</string>
+	<string name="macNotifText">Znaleziono sieć %s, ale ponieważ wykryto zmiane adresu MAC połączenie nie zostało nawiązane. Dotknij tu by uzyskać więcej opcji.</string>
+
+	<string-array name="refreshTimeNames">
+		<item>30 sekund</item>
+		<item>1 minuta</item>
+		<item>2 minuty</item>
+		<item>3 minuty</item>
+		<item>5 minut</item>
+		<item>10 minut</item>
+		<item>Użytkownika…</item>
+	</string-array>
+	<string name="timePickerMinutes">Minut</string>
+
+	<string-array name="help_spinner">
+		<item>Ogólne</item>
+		<item>@string/action_wifi</item>
+		<item>@string/action_networks</item>
+	</string-array>
+
+	<string-array name="help_texts">
+		<item><![CDATA[
+			<h1>Pozwolenia</h1>
+			Uprawnienia o które prosi aplikacja zostały przemyślane i dobrane z wielką uwagą. Wszystkie te pozwolenia są potrzebe aby aplikacja mogła uzyskać pełną funkcjonalność.<br />
+			Gdybyś przypadkiem miał jeszcze jakieś obawy, poniżej wymieniliśmy wszystkie żądane pozwolenia, każde z wyjasnieniem dlaczego go potrzebujemy.<br /><br />
+			<b>Pozwolenia sieciowe:</b> Są potrzebne aby wyszukać wszystkie dostępne sieci oraz by się z nimi łączyć.<br />
+			<b>Internet:</b> Używany tylko do po połączeń reklam google.<br />
+		]]></item>
+		<item><![CDATA[
+			<h1>Lista sieci</h1>
+			Po otwarciu aplikacji, pierwszą rzeczą, którą widzisz jest lista dostępnych sieci. WiFi nie musi być włączone dla tej funkcji.<br />
+			Możesz tutaj zobaczyć nazwy oraz siłe sygnału poszczególnych sieci. Po dotknięciu nazwy sieci, wyświetlane są dla niej opcje.
+			<h1>Ostrzeżenia</h1>
+			Jeśli w Ustawieniach włączona jest opcja sprawdzania adresów MAC, podczas połączenia może wyświetlić się ostrzeżenie. Aby uzyskać więcej informacji o tym mechanizmie zajrzyj do pomocy w \"Sieciach\".<br />
+			W przypadku problemów z połączeniem, należy postępować zgodnie z instrukcjami oferowanych przez ustawienia systemowe.
+		]]></item>
+		<item><![CDATA[
+			Funkcja ta jest przede wszystkim istotna, jeśli kontrola MAC jest włączona w ustawieniach (zalecane!).
+			<h1>Kontrola MAC</h1>
+			Kontrola adresu MAC jest dodatkowym zabezpieczeniem sprawdzającym czy sieć z którą się łączysz jest rzeczywiście tą z którą chcesz się połączyć.<br />
+			Domyślnie, Android sprawdza <i>tylko</i> nazwe sieci przed połączeniem się z nią.<br />
+			TTo oznacza że jeśli masz już zapisaną sieć, a Android wykryje inną o tej samej nazwie będzie próbował połączyć sięz nią automatycznie.<br />
+			Możliwe że został użyty sprzęt ze złosliwym oprogramowaniem by zbierać hasła lub wysyłać szkodliwe dane do Twojego urządzenia.<br />
+			Adres MAC jednoznacznie identyfikuje urządzenie.
+			<h1>Jak to działa</h1>
+			Podczas łączenia się z siecią gdy włączona jest kontrola MAC, Wifi Better Battery automatycznie sprawdza czy adres MAC danej sieci jest już zapisany dany adres MAC.<br />
+			W \"Sieciach\" możesz usunąc zapisane sieci jak i adresy MAC które dodałeś wcześniej.
+		]]></item>
+	</string-array>
+
+	<string name="dialogConnect">Połącz</string>
+</resources>
