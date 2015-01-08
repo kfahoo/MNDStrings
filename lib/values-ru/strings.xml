@@ -41,7 +41,7 @@
 		Вы можете получить доступ к остальным разделам помощи отсюда, нажав на &quot;%s&quot; выше.
 	]]></string>
 	<string name="helpUs"><![CDATA[
-	    <h1>Нам нужна Ваша помошь!</h1>
+	    <h1>Нам нужна Ваша помощь!</h1>
 		Пожалуйста помогите %1$s набрать популярность, порекомендовав его своим друзьям или сделав следующее:<br /><br />
 		<a href="https://www.facebook.com/%2$s">Поставьте лайк и поделитесь нашей страницей на Facebook!</a><br /><br />
 		<a href="market://details?id=%3$s">Пожалуйста оцените %1$s в Google Play!</a><br /><br />
@@ -49,7 +49,7 @@
 	]]></string>
     <string-array name="help_spinner"/>
     <string-array name="help_texts"/>
-    <string name="helpUsTitle">Нам нужна Ваша помошь!</string>
+    <string name="helpUsTitle">Нам нужна Ваша помощь!</string>
     <string name="helpUsMessage">Вам нравится %s? Если да, то пожалуйста…</string>
     <string-array name="helpUsItems">
         <item>оцените приложение на 5 звезд в Google Play!</item>
