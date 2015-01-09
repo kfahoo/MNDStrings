@@ -42,8 +42,8 @@
 		\nKiedy dotkniesz Okej, otworzy się systemowy menedżer połączeń.
 		\nPołącz się z siecią używajac go.
 	</string>
-	<string name="macTrusted">Trusted</string>
-	<string name="macBlocked">Blocked</string>
+	<string name="macTrusted">Zaufane</string>
+	<string name="macBlocked">Zablokowane</string>
 
 	<string name="macQuestion"><![CDATA[
 		Czy chciałbyś aktywować sprawdzanie adresów MAC?<br />
