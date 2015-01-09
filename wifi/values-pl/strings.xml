@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">WiFi Better Battery</string>
 	<string name="action_wifi">Zarządzanie WiFi</string>
@@ -10,6 +9,9 @@
 	<string name="nActionRemove">Wyłącz automatyczne łaczenie</string>
 	<string name="undo">Cofnij</string>
 	<string name="widgetDescription">Przełączanie automatycznego zarządzania WiFi</string>
+	<string name="widget_auto">Toggle automatic functions</string>
+	<string name="widget_scan">Instant scan</string>
+	<string name="widgetScanText">Scan</string>
 
 	<string name="wifiLevel">Jakośc połączenia</string>
 	<string name="wifiConnected">Połączono</string>
@@ -40,6 +42,8 @@
 		\nKiedy dotkniesz Okej, otworzy się systemowy menedżer połączeń.
 		\nPołącz się z siecią używajac go.
 	</string>
+	<string name="macTrusted">Trusted</string>
+	<string name="macBlocked">Blocked</string>
 
 	<string name="macQuestion"><![CDATA[
 		Czy chciałbyś aktywować sprawdzanie adresów MAC?<br />
@@ -111,7 +115,9 @@
 			W przypadku problemów z połączeniem, należy postępować zgodnie z instrukcjami oferowanych przez ustawienia systemowe.
 		]]></item>
 		<item><![CDATA[
-			Funkcja ta jest przede wszystkim istotna, jeśli kontrola MAC jest włączona w ustawieniach (zalecane!).
+			<h1>Saved networks</h1>
+			Here you can edit your saved networks and corresponding MAC addresses.
+			This function is most useful if the MAC check is enabled in the Settings (recommended!).
 			<h1>Kontrola MAC</h1>
 			Kontrola adresu MAC jest dodatkowym zabezpieczeniem sprawdzającym czy sieć z którą się łączysz jest rzeczywiście tą z którą chcesz się połączyć.<br />
 			Domyślnie, Android sprawdza <i>tylko</i> nazwe sieci przed połączeniem się z nią.<br />

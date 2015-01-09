@@ -31,8 +31,6 @@
 		We understand the aversion to ads, they can be annoying. But making apps is a lot of hard work.
 		\nIf you really don\'t want to see ads, please consider donating instead.
 	</string>
-	<!-- <string name="adsAsk">We use ads to be able to offer you our services for free. Please consider keeping them enabled. Are you sure you wish to disable ads?</string>
-	<string name="adsThankYou">Thank you!</string>-->
 	
 	<!-- Help -->
    	<string name="helpNav"><![CDATA[
@@ -46,6 +44,7 @@
 		<a href="https://www.facebook.com/%2$s">Please like and share our page on Facebook!</a><br /><br />
 		<a href="market://details?id=%3$s">Please rate %1$s in the Google Play Store!</a><br /><br />
 		<a href="">You can also help by donating!</a>
+		<a href="https://github.com/CanisLupusXenonis/MNDStrings">Or help translating the app to another language!</a>
 	]]></string>
     <string-array name="help_spinner"/>
     <string-array name="help_texts"/>
@@ -61,9 +60,8 @@
 	<!-- Info -->
 	<string name="credits"><b>Developer</b>\nMichael Heissenberger</string>
 	<string name="translatorsTitle">Translators</string>
-	<string name="translators"/>
 	<string name="disclaimer"><b>Disclaimer</b>
-	    \nThis application is intended to provide guidance and advice and is given freely in an attempt at helping those in need. As this is a third party service we cannot guarantee that it will function properly or even give proper advice.
+	    \nThis application is given freely in an attempt at helping those who need it. As this is a third party service we cannot guarantee that it will function properly or even give correct information.
 	    \nBy using this application, you agree to not hold us liable for any damages or issues which may result from use of this application.
 	</string>
 	<string name="contactUs">Contact Us</string>

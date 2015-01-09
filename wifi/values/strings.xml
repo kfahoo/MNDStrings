@@ -42,6 +42,8 @@
 		\nWhen you tap Okay, Android\'s settings utility will be opened.
 		\nPlease connect to the network there.
 	</string>
+	<string name="macTrusted">Trusted</string>
+	<string name="macBlocked">Blocked</string>
 
 	<string name="macQuestion"><![CDATA[
 		Would you like to activate MAC checks?<br />

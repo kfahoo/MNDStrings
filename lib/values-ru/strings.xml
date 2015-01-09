@@ -41,15 +41,16 @@
 		Вы можете получить доступ к остальным разделам помощи отсюда, нажав на &quot;%s&quot; выше.
 	]]></string>
 	<string name="helpUs"><![CDATA[
-	    <h1>Нам нужна Ваша помощь!</h1>
+	    <h1>Нам нужна Ваша помошь!</h1>
 		Пожалуйста помогите %1$s набрать популярность, порекомендовав его своим друзьям или сделав следующее:<br /><br />
 		<a href="https://www.facebook.com/%2$s">Поставьте лайк и поделитесь нашей страницей на Facebook!</a><br /><br />
 		<a href="market://details?id=%3$s">Пожалуйста оцените %1$s в Google Play!</a><br /><br />
-		<a href="">Вы также можете помочь, сделав пожертвование!</a>
+		<a href="">Вы также можете помочь, сделав пожертвование!</a><br /><br />
+		<a href="https://github.com/CanisLupusXenonis/MNDStrings">Or help translating the app to another language!</a>
 	]]></string>
     <string-array name="help_spinner"/>
     <string-array name="help_texts"/>
-    <string name="helpUsTitle">Нам нужна Ваша помощь!</string>
+    <string name="helpUsTitle">Нам нужна Ваша помошь!</string>
     <string name="helpUsMessage">Вам нравится %s? Если да, то пожалуйста…</string>
     <string-array name="helpUsItems">
         <item>оцените приложение на 5 звезд в Google Play!</item>
@@ -61,7 +62,6 @@
 	<!-- Info -->
 	<string name="credits"><b>Разработчик</b>\nMichael Heissenberger</string>
 	<string name="translatorsTitle">Переводчики</string>
-	<string name="translators"/>
 	<string name="disclaimer"><b>Отказ от ответственности</b>
 	    \nДанное приложение предлагает сервис, носящий рекомендательный характер, бесплатный для всех, кому это нужно. Так как это третьесторонний сервис, мы не можем гарантировать, что он будет функционировать правильно или давать правильные рекомендации.
 	    \nИспользуя данное приложение, Вы соглашаетесь с тем, что принимаете весь риск от использования приложения на себя и снимаете с автора ответственность за возможные повреждения устройства и прочие последствия, которые могут быть вызваны использованием этого приложения.

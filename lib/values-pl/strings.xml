@@ -31,8 +31,6 @@
 		Rozumiemy niechęć do reklam, one potrafią być irytujące. ale tworzenie aplikacji to ciężka praca.
 		\nJeśli bardzo nie chcesz oglądać reklam, proszę rozważ wsparcie finansowe.
 	</string>
-	<!-- <string name="adsAsk">We use ads to be able to offer you our services for free. Please consider keeping them enabled. Are you sure you wish to disable ads?</string>
-	<string name="adsThankYou">Thank you!</string>-->
 	
 	<!-- Help -->
    	<string name="helpNav"><![CDATA[
@@ -46,6 +44,7 @@
 		<a href="https://www.facebook.com/%2$s">Proszę polub i udostępnij naszą strone na Facebooku!</a><br /><br />
 		<a href="market://details?id=%3$s">Proszę oceń %1$s w sklepie Google Play!</a><br /><br />
 		<a href="">Możesz rownież pomoć wspomagając finansowo!</a>
+		<a href="https://github.com/CanisLupusXenonis/MNDStrings">Or help translating the app to another language!</a>
 	]]></string>
     <string-array name="help_spinner"/>
     <string-array name="help_texts"/>
@@ -61,7 +60,6 @@
 	<!-- Info -->
 	<string name="credits"><b>Autor</b>\nMichael Heissenberger</string>
 	<string name="translatorsTitle">Osoby tłumaczące</string>
-	<string name="translators"/>
 	<string name="disclaimer"><b>Warunki użytkowania</b>
 	    \nTa aplikacja ma na celu udzielenie wskazówek i porad, and is given freely in an attempt at helping those in need. Ponieważ jest to aplikacja zewnętrzna, nie możemy zagwarantować, że będzie działać poprawnie czy nawet że będziemy w stanie dać właściwą poradę.
 	    \nUżywając tej aplikacji, użytkownik zgadza się nie obarczać nas odpowiedzialnością za jakiekolwiek szkody lub problemy, które mogą być wynikiem korzystania z tej aplikacji.

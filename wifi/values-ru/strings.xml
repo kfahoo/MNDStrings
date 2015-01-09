@@ -1,7 +1,3 @@
-<!--
-	Добавлен перевод на русский язык!
-	@translators: Please translate the text above for the changelog.
--->
 <resources>
 	<string name="app_name">WiFi Better Battery</string>
 	<string name="action_wifi">WiFi менеджер</string>
@@ -13,6 +9,9 @@
 	<string name="nActionRemove">Отключить автоподключение</string>
 	<string name="undo">Отменить</string>
 	<string name="widgetDescription">Переключатель автоматического управления WiFi</string>
+	<string name="widget_auto">Toggle automatic functions</string>
+	<string name="widget_scan">Instant scan</string>
+	<string name="widgetScanText">Scan</string>
 
 	<string name="wifiLevel">Качество соединения</string>
 	<string name="wifiConnected">Подключено</string>
@@ -43,6 +42,8 @@
 		\nКогда Вы нажмете Понятно, откроются системные настройки Android.
 		\nПожалуйста подключитесь к сети там.
 	</string>
+	<string name="macTrusted">Trusted</string>
+	<string name="macBlocked">Blocked</string>
 
 	<string name="macQuestion"><![CDATA[
 		Хотите активировать проверку MAC адресов?<br />
@@ -62,9 +63,7 @@
 	<string name="prefAutoFuncs">Автоматическое управление WiFi</string>
 	<string name="prefAutoFuncsDesc">Автоматически включает/отключает WiFi и соединяется с известными сетями. Необходимо для экономии заряда батареи!</string>
 	<string name="prefLegacy">Устаревший режим сканирования сетей</string>
-	<string name="prefLegacyDesc">В Android >= 4.3 автоматическое сканирование реализовано переводом WiFi в специальный режим низкого энергопотребления, который более эффективен, чем постоянное включение и выключение WiFi. На некоторых устройствах этот режим не работает и потребляется много энергии. Активируйте эту опцию для того, чтобы иметь возможность экономить заряд батареи на таких устройствах. Если Вы активируете ее, пожалуйста отключите опцию "Постоянное сканирование сетей" в дополнительных системных настройках WiFi. Эта опция бесполезна на Android &lt; 4.3.
-	</string>
-	
+	<string name="prefLegacyDesc">В Android >= 4.3 автоматическое сканирование реализовано переводом WiFi в специальный режим низкого энергопотребления, который более эффективен, чем постоянное включение и выключение WiFi. На некоторых устройствах этот режим не работает и потребляется много энергии. Активируйте эту опцию для того, чтобы иметь возможность экономить заряд батареи на таких устройствах. Если Вы активируете ее, пожалуйста отключите опцию "Постоянное сканирование сетей" в дополнительных системных настройках WiFi. Эта опция бесполезна на Android &lt; 4.3.</string>
 	<string name="prefCatPlan">Автоматизация</string>
 	<string name="prefPlanEnabled">Включить расписание</string>
 	<string name="prefPlanEnabledDesc">Эта опция совместно с опциями Время начала и Время окончания может быть использована для того, чтобы WiFi Better Battery отключал WiFi в определенное время, например, на ночь.</string>
@@ -72,13 +71,13 @@
 	<string name="prefPlanEnd">Время окончания</string>
 	<string name="prefDisableScreenOff">Отключать сканирование при отключении экрана</string>
 	<string name="prefDisableScreenOffDesc">Отключать сканирование сетей когда экран Вашего устройства выключен, чтобы экономить еще больше заряда батареи.</string>
-	
 	<string name="prefDisconnectScreenOff">Отключаться от сети при отключении экрана</string>
 	<string name="prefDisconnectScreenOffDesc">Принудительно отключаться от любой сети, к которой Вы подключены, при отключении экрана. Эта функция не проверяет наличие активных загрузок.</string>
 	<string name="prefScanScreenOn">Сканировать при включении экрана</string>
 	<string name="prefScanScreenOnDesc">Запускать сканирование сетей когда Вы включаете экран устройства.</string>
 	<string name="prefScanConnected">Сканировать когда подключен</string>
 	<string name="prefScanConnectedDesc">Использует больше заряда батареи, но позволяет реализовать роуминг WiFi (переключение к другой сети с лучшим сигналом)</string>
+	
 	<string name="macNotifTitle">Обнаружено изменение MAC адреса!</string>
 	<string name="macNotifText">Сеть %s найдена, но подключение не было установлено из-за изменения MAC адреса. Пожалуйста нажмите здесь для показа опций.</string>
 
@@ -97,7 +96,6 @@
 		<item>Общие</item>
 		<item>@string/action_wifi</item>
 		<item>@string/action_networks</item>
-		<item>@string/action_settings</item>
 	</string-array>
 
 	<string-array name="help_texts">
@@ -117,7 +115,9 @@
 			В случае проблем с подключением, пожалуйста следуйте инструкциям, предлагаемым системными настройками Android.
 		]]></item>
 		<item><![CDATA[
-			Эта функция уместна если в настройках включена проверка MAC адресов (рекомендуется!).
+			<h1>Saved networks</h1>
+			Here you can edit your saved networks and corresponding MAC addresses.
+			This function is most useful if the MAC check is enabled in the Settings (recommended!).
 			<h1>Проверка MAC адресов</h1>
 			Проверка MAC адресов - это дополнительная проверка, направленная на то, чтобы удостовериться, что сеть, к которой Вы подключаетесь, на самом деле является той, за какую себя выдает.<br />
 			По умолчанию Android проверяет<i>только</i> имя сети перед подключением к ней.<br />
