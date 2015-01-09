@@ -1,23 +1,20 @@
-Przedluz czas pracy swojego telefonu lub tabletu za pomoca WiFi Better Battery!
+锘縋rzed艂u偶 czas pracy swojego telefonu lub tabletu za pomoca WiFi Better Battery!
 
 
 Dodano polskie tlumaczenie!
 
 
-WiFi Better Battery przedluzy czas pracy Twojego telefonu czy tabletu dzieki opcji sprawdzania czy WiFi jest wlaczone tylko wtedy kiedy na prawde tego potrzebujesz. Kiedy wyjdziesz z zasiegu swojej sieci WiFi, Twoje urzadzenie automatycznie wylaczy modul WiFi (z pewnym op髗nieniem gdybys przypadkowo stracil polaczenie). Jak tylko znowu znajdziesz sie w zasiegu, WiFi jest wlaczane spowrotem i zostajesz polaczony z jedna z zapisanych wczesniej sieci.
+WiFi Better Battery przedluzy czas pracy Twojego telefonu czy tabletu dzieki opcji sprawdzania czy WiFi jest wlaczone tylko wtedy kiedy na prawde tego potrzebujesz. Kiedy wyjdziesz z zasiegu swojej sieci WiFi, Twoje urzadzenie automatycznie wylaczy modul WiFi (z pewnym op贸znieniem gdybys przypadkowo stracil polaczenie). Jak tylko znowu znajdziesz sie w zasiegu, WiFi jest wlaczane spowrotem i zostajesz polaczony z jedna z zapisanych wczesniej sieci.
 
 Nie musisz sie martwic o hasla sieciowe czy inne dane potrzebne do polaczenia - wszystkie te dane sa przechowywane w systemowym menedzerze WiFi a ta aplikacja nie ma pozwolenia na podsluchiwanie ruchu sieciowego.
 
-Ta aplikacja moze oszczedzac prad i potencjalnie tez pozwoli oszczedzic Ci pare groszy - jesli sie zapomnisz i zaczniesz przez przypadek sciagac jakies dane tudziez ogladac jakis film przez siec kom髍kowa mozesz sie narazic na dodatkowe koszty. Taka sytuacja sie nigdy wiecej nie zdarzy jesli bedziesz uzywal WiFi Better Battery!
+Ta aplikacja moze oszczedzac prad i potencjalnie tez pozwoli oszczedzic Ci pare groszy - jesli sie zapomnisz i zaczniesz przez przypadek sciagac jakies dane tudziez ogladac jakis film przez siec kom贸rkowa mozesz sie narazic na dodatkowe koszty. Taka sytuacja sie nigdy wiecej nie zdarzy jesli bedziesz uzywal WiFi Better Battery!
 
-WiFi Better Battery ma tez dodatkowo mechanizm zabezpieczajacy. To ze obsluga WiFi przez androida jest nie do konca bezpieczna to og髄nie znany fakt. Domyslnie android przed polaczeniem sprawdza tylko nazwe sieci. Oznacza to ze, jesli masz juz zapisana jakas siec a android wykryje inna siec o tej samej nazwie, bedzie pr骲owal sie z nia automatycznie polaczyc. Mozliwe ze zostal wtedy uzyty sprzet ze zlosliwym oprogramowaniem by zbierac hasla lub wysylac szkodliwe dane do Twojego urzadzenia. WiFi Better Battery oferuje dodatkowy mechanizm kontroli adres體 MAC zabezpieczjac przed takim atakiem. Adresy MAC sa unikalne dla kazdego urzadzenia i sluza do jego identyfikacji.
+WiFi Better Battery ma tez dodatkowo mechanizm zabezpieczajacy. To ze obsluga WiFi przez androida jest nie do konca bezpieczna to og贸lnie znany fakt. Domyslnie android przed polaczeniem sprawdza tylko nazwe sieci. Oznacza to ze, jesli masz juz zapisana jakas siec a android wykryje inna siec o tej samej nazwie, bedzie pr贸bowal sie z nia automatycznie polaczyc. Mozliwe ze zostal wtedy uzyty sprzet ze zlosliwym oprogramowaniem by zbierac hasla lub wysylac szkodliwe dane do Twojego urzadzenia. WiFi Better Battery oferuje dodatkowy mechanizm kontroli adres贸w MAC zabezpieczjac przed takim atakiem. Adresy MAC sa unikalne dla kazdego urzadzenia i sluza do jego identyfikacji.
 
 Platnosci w aplikacji sa TYLKO jako mozliwosc wsparcia finansowego autora oraz wylaczenai reklam. Pelna funkcjonalnosc aplikacja jest dostepna za darmo.
 
-The permissions which WiFi Better Battery requests on your device have been chosen with great care. All permissions are necessary for its full functionality.
-Just in case you still have concerns we have listed all requested permissions below, each with an explanation of why we need it.
-Network permissions: Necessary to list all available networks and to connect to networks. The app CANNOT read your network traffic or passwords.
-Internet: Used only for Google ads.
-
-Uprawnienia o kt髍e prosi aplikacja zostaly przemyslane i dobrane z wielka uwaga. Wszystkie te pozwolenia sa potrzebe aby aplikacja mogla uzyskac pelna funkcjonalnosc.	Gdybys przypadkiem mial jeszcze jakies obawy, ponizej wymienilismy wszystkie zadane pozwolenia, kazde z wyjasnieniem dlaczego go potrzebujemy. Pozwolenia sieciowe: Sa potrzebne aby wyszukac wszystkie dostepne sieci oraz by sie z nimi laczyc. Aplikacja NIE POTRAFI podsluchiwac ruchu sieciowego czy przechwytywac hasel.
+Uprawnienia o kt贸re prosi aplikacja zostaly przemyslane i dobrane z wielka uwaga. Wszystkie te pozwolenia sa potrzebe aby aplikacja mogla uzyskac pelna funkcjonalnosc.
+Gdybys przypadkiem mial jeszcze jakies obawy, ponizej wymienilismy wszystkie zadane pozwolenia, kazde z wyjasnieniem dlaczego go potrzebujemy.
+Pozwolenia sieciowe: Sa potrzebne aby wyszukac wszystkie dostepne sieci oraz by sie z nimi laczyc. Aplikacja NIE POTRAFI podsluchiwac ruchu sieciowego czy przechwytywac hasel.
 Internet: Uzywany tylko do polaczen reklam google.
