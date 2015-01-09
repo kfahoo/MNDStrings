@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">WiFi Better Battery</string>
 	<string name="action_wifi">Zarządzanie WiFi</string>
@@ -7,11 +6,14 @@
 	<string name="nActionConnect">Połącz raz</string>
 	<string name="nActionAdd">Łącz automatycznie</string>
 	<string name="nActionDisconnect">Rozłącz</string>
-	<string name="nActionRemove">Wyłącz automatyczne łaczenie</string>
+	<string name="nActionRemove">Wyłącz automatyczne łączenie</string>
 	<string name="undo">Cofnij</string>
 	<string name="widgetDescription">Przełączanie automatycznego zarządzania WiFi</string>
+	<string name="widget_auto">Przełącz funkcje automatyczne</string>
+	<string name="widget_scan">Wyszukaj teraz</string>
+	<string name="widgetScanText">Skanuj</string>
 
-	<string name="wifiLevel">Jakośc połączenia</string>
+	<string name="wifiLevel">Jakość połączenia</string>
 	<string name="wifiConnected">Połączono</string>
 	<string name="wifiEmpty">Nie znaleziono żadnych sieci.</string>
 	<string name="newMac">
@@ -103,7 +105,7 @@
 			<b>Internet:</b> Używany tylko do po połączeń reklam google.<br />
 		]]></item>
 		<item><![CDATA[
-			<h1>Lista sieci</h1>
+			<h1>Dostępne sieci</h1>
 			Po otwarciu aplikacji, pierwszą rzeczą, którą widzisz jest lista dostępnych sieci. WiFi nie musi być włączone dla tej funkcji.<br />
 			Możesz tutaj zobaczyć nazwy oraz siłe sygnału poszczególnych sieci. Po dotknięciu nazwy sieci, wyświetlane są dla niej opcje.
 			<h1>Ostrzeżenia</h1>
@@ -111,7 +113,9 @@
 			W przypadku problemów z połączeniem, należy postępować zgodnie z instrukcjami oferowanych przez ustawienia systemowe.
 		]]></item>
 		<item><![CDATA[
-			Funkcja ta jest przede wszystkim istotna, jeśli kontrola MAC jest włączona w ustawieniach (zalecane!).
+			<h1>Zapisane sieci</h1>
+			Tutaj możesz edytować zapisane sieci oraz odpowiadające im adresy MAC.
+			Ta funkcja jest najbardziej przydatna, gdy kontrola MAC jest włączona w ustawieniach (zalecane!).
 			<h1>Kontrola MAC</h1>
 			Kontrola adresu MAC jest dodatkowym zabezpieczeniem sprawdzającym czy sieć z którą się łączysz jest rzeczywiście tą z którą chcesz się połączyć.<br />
 			Domyślnie, Android sprawdza <i>tylko</i> nazwe sieci przed połączeniem się z nią.<br />
