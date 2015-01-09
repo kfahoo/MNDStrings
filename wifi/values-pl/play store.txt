@@ -1,6 +1,8 @@
 Przedluz czas pracy swojego telefonu lub tabletu za pomoca WiFi Better Battery!
 
+
 Dodano polskie tlumaczenie!
+
 
 WiFi Better Battery przedluzy czas pracy Twojego telefonu czy tabletu dzieki opcji sprawdzania czy WiFi jest wlaczone tylko wtedy kiedy na prawde tego potrzebujesz. Kiedy wyjdziesz z zasiegu swojej sieci WiFi, Twoje urzadzenie automatycznie wylaczy modul WiFi (z pewnym opóznieniem gdybys przypadkowo stracil polaczenie). Jak tylko znowu znajdziesz sie w zasiegu, WiFi jest wlaczane spowrotem i zostajesz polaczony z jedna z zapisanych wczesniej sieci.
 
