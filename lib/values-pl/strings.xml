@@ -44,7 +44,7 @@
 		<a href="https://www.facebook.com/%2$s">Proszę polub i udostępnij naszą strone na Facebooku!</a><br /><br />
 		<a href="market://details?id=%3$s">Proszę oceń %1$s w sklepie Google Play!</a><br /><br />
 		<a href="">Możesz rownież pomoć wspomagając finansowo!</a>
-		<a href="https://github.com/CanisLupusXenonis/MNDStrings">Or help translating the app to another language!</a>
+		<a href="https://github.com/CanisLupusXenonis/MNDStrings">Lub po prostu pomoc przetłumaczyć aplikacje na inne języki!</a>
 	]]></string>
     <string-array name="help_spinner"/>
     <string-array name="help_texts"/>
