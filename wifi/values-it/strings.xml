@@ -1,0 +1,134 @@
+<resources>
+	<string name="app_name">WiFi Better Battery</string>
+	<string name="action_wifi">WiFi Manager</string>
+	<string name="action_networks">Reti</string>
+	<string name="action_refresh">Scansione</string>
+	<string name="nActionConnect">Connettere una volta</string>
+	<string name="nActionAdd">Connessione automatica</string>
+	<string name="nActionDisconnect">Disconnettere</string>
+	<string name="nActionRemove">Disabilita Connessione automatica</string>
+	<string name="undo">Annulla</string>
+	<string name="widgetDescription">Attiva gestione automatica WiFi</string>
+	<string name="widget_auto">Toggle automatic functions</string>
+	<string name="widget_scan">Instant scan</string>
+	<string name="widgetScanText">Scan</string>
+
+	<string name="wifiLevel">Connection quality</string>
+	<string name="wifiConnected">Connected</string>
+	<string name="wifiEmpty">No networks have been found.</string>
+	<string name="newMac">
+		You are connecting to this network for the first time!
+		\nThe router\'s MAC address is %s. If possible, please verify it.
+		\nDon\'t be concerned that you are seeing this notification - it is only shown as a security mechanism.
+		\nIf you are certain that you are connecting to the correct network, you can just tap \"Connect\".
+		\nYou can disable this warning in Settings.
+	</string>
+	<string name="macChanged">
+		The router\'s MAC address has changed!
+		\nThis could mean that another network is pretending to be the network %1$s!
+		\nThis notification could also be shown if: 1) The network\'s router was replaced. 2) A network is using multiple routers.
+		\nThe unknown MAC address is %2$s.
+		\nYou can disable this warning in Settings.
+	</string>
+	<string name="macAdd">Add MAC address to known ones for this network</string>
+	<string name="macDontConnect">Don\'t connect</string>
+	<string name="networksEmpty">No networks have been saved yet!</string>
+	<string name="macsEmpty">No MAC addresses are known for this network yet!</string>
+	<string name="networkDeleted">Network deleted: %s</string>
+	<string name="macDeleted">MAC deleted: %s</string>
+	<string name="connectingTo">Connecting to %s</string>
+	<string name="networkUnknown">
+		You do not have connection data stored for this network yet.
+		\nWhen you tap Okay, Android\'s settings utility will be opened.
+		\nPlease connect to the network there.
+	</string>
+	<string name="macTrusted">Trusted</string>
+	<string name="macBlocked">Blocked</string>
+
+	<string name="macQuestion"><![CDATA[
+		Would you like to activate MAC checks?<br />
+		By default, Android <i>only</i> checks the name of a network before connecting to it.<br />
+		That means that if you have a network saved, and Android detects another network with the same name, Android automatically tries to connect to it.<br />
+		A malicious device could use this to collect passwords or send harmful data to your device.<br />
+		Checking it thus helps verify a network\'s identity.<br />
+		It is strongly recommended that you enable this, but it means a few additional warnings will be shown.
+	]]></string>
+	<string name="compatibilityModeActive">Legacy mode activated instead. You can change this in settings.</string>
+	
+	<string name="prefCatWifi">WiFi</string>
+	<string name="prefRefreshTime">Refresh interval</string>
+	<string name="prefRefreshTimeDesc">How often to check whether a network is in range. The smaller the interval, the quicker you will be connected, but the more battery is used!</string>
+	<string name="prefMacCheck">MAC check</string>
+	<string name="prefMacCheckDesc">Here you can disable the MAC check before a connection attempt (not recommended!). For more information about this feature please consult the \"Networks\" help.</string>
+	<string name="prefAutoFuncs">Automatic WiFi management</string>
+	<string name="prefAutoFuncsDesc">Automatically switch WiFi on and off and connect to known networks. Required to save battery! There is a widget for this setting for quick access.</string>
+	<string name="prefLegacy">Legacy auto-scan mode</string>
+	<string name="prefLegacyDesc">In Android >= 4.3 auto-scan uses low-power WiFi, which is more efficient than turning it off and on all the time. On some devices, this feature is broken and it uses full power anyway. If you see high energy usage, please activate this and disable the "Scanning always available" option in your device\'s advanced WiFi settings. This setting has no effect on Android &lt; 4.3.</string>
+	<string name="prefCatPlan">Automation</string>
+	<string name="prefPlanEnabled">Enable planning</string>
+	<string name="prefPlanEnabledDesc">This setting, along with the \"Start time\" and <b>End time</b> settings can be used to make WiFi Better Battery switch off WiFi at certain times, for instance during the night.</string>
+	<string name="prefPlanStart">Start time</string>
+	<string name="prefPlanEnd">End time</string>
+	<string name="prefDisableScreenOff">Disable with screen off</string>
+	<string name="prefDisableScreenOffDesc">Disable scanning while the screen of your device is turned off to save even more battery.</string>
+	<string name="prefDisconnectScreenOff">Disconnect with screen off</string>
+	<string name="prefDisconnectScreenOffDesc">Actively disconnect from any network you are connected to when turning off your screen. This function does not check for active downloads.</string>
+	<string name="prefScanScreenOn">Scan at screen on</string>
+	<string name="prefScanScreenOnDesc">Start a scan for WiFi networks when you turn on the screen of your device.</string>
+	<string name="prefScanConnected">Scan while connected</string>
+	<string name="prefScanConnectedDesc">Uses more battery, but allows for WiFi Roaming (switching to another network with better connection strength)</string>
+
+	<string name="macNotifTitle">MAC change detected!</string>
+	<string name="macNotifText">The network %s was found, but no connection was established because its MAC address changed. Please tap here for options.</string>
+
+	<string-array name="refreshTimeNames">
+		<item>30 seconds</item>
+		<item>1 minute</item>
+		<item>2 minutes</item>
+		<item>3 minutes</item>
+		<item>5 minutes</item>
+		<item>10 minutes</item>
+		<item>Customâ€¦</item>
+	</string-array>
+	<string name="timePickerMinutes">Minutes</string>
+
+	<string-array name="help_spinner">
+		<item>General</item>
+		<item>@string/action_wifi</item>
+		<item>@string/action_networks</item>
+	</string-array>
+
+	<string-array name="help_texts">
+		<item><![CDATA[
+			<h1>Permissions</h1>
+			The permissions which WiFi Better Battery requests on your device have been chosen with great care. All permissions are necessary for its full functionality.<br />
+			Just in case you still have concerns we have listed all requested permissions below, each with an explanation of why we need it.<br /><br />
+			<b>Network permissions:</b> Necessary to list all available networks and to connect to networks.<br />
+			<b>Internet:</b> Used only for Google ads.<br />
+		]]></item>
+		<item><![CDATA[
+			<h1>Available networks</h1>
+			After opening the app, the first thing you see is the list of available networks. WiFi does not have to be turned on for this function.<br />
+			You can see the names and signal strengths of the networks here. When you tap on a network, the options for it are displayed.
+			<h1>Warnings</h1>
+			If the MAC check is enabled in the Settings, you may get a warning when connecting. For more information please consult the \"Networks\" help.<br />
+			For connection problems, please follow the instructions offered by the Android system settings.
+		]]></item>
+		<item><![CDATA[
+			<h1>Saved networks</h1>
+			Here you can edit your saved networks and corresponding MAC addresses.
+			This function is most useful if the MAC check is enabled in the Settings (recommended!).
+			<h1>MAC check</h1>
+			The MAC check is an added check whether the network you want to connect to is actually the one you think it is.<br />
+			By default, Android <i>only</i> checks the name of a network before connecting to it.<br />
+			That means that if you have a network saved, and Android detects another network with the same name, Android automatically tries to connect to it.<br />
+			A malicious device could use this to collect passwords that are sent during connection attempts or send harmful data to your device.<br />
+			A MAC address uniquely identifies a device.
+			<h1>How it works</h1>
+			When connecting to a network and when the MAC check is on, Wifi Better Battery automatically checks whether the MAC address is known for this network.<br />
+			In \"Networks\" you can delete known networks and MAC addresses that you have added at an earlier time.
+		]]></item>
+	</string-array>
+
+	<string name="dialogConnect">Connect</string>
+</resources>
