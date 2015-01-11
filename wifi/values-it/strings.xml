@@ -24,34 +24,34 @@
 		\nÈ possibile disattivare questo avviso nelle impostazioni.
 	</string>
 	<string name="macChanged">
-		The router\'s MAC address has changed!
-		\nThis could mean that another network is pretending to be the network %1$s!
-		\nThis notification could also be shown if: 1) The network\'s router was replaced. 2) A network is using multiple routers.
-		\nThe unknown MAC address is %2$s.
-		\nYou can disable this warning in Settings.
+		L'\indirizzo MAC del router è cambiato!
+		\nCiò potrebbe significare che un'\altra rete sta fingendo di essere la rete %1$s!
+		\nQuesta notifica potrebbe anche essere visualizzata se: 1) Il router della rete è stato sostituito. 2) Una rete utilizza più router.
+		\nL'indirizzo MAC sconosciuto è %2$s.
+		\nÈ possibile disattivare questo avviso nelle impostazioni.
 	</string>
-	<string name="macAdd">Add MAC address to known ones for this network</string>
-	<string name="macDontConnect">Don\'t connect</string>
-	<string name="networksEmpty">No networks have been saved yet!</string>
-	<string name="macsEmpty">No MAC addresses are known for this network yet!</string>
-	<string name="networkDeleted">Network deleted: %s</string>
-	<string name="macDeleted">MAC deleted: %s</string>
-	<string name="connectingTo">Connecting to %s</string>
+	<string name="macAdd">Aggiungi indirizzo MAC a quelli noti per questa rete</string>
+	<string name="macDontConnect">Non connettere</string>
+	<string name="networksEmpty">Nessuna rete è ancora stata salvata!</string>
+	<string name="macsEmpty">Nessun indirizzo MAC è ancora noto per questa rete!</string>
+	<string name="networkDeleted">Rete cancellata: %s</string>
+	<string name="macDeleted">MAC cancellato: %s</string>
+	<string name="connectingTo">Connessione a %s</string>
 	<string name="networkUnknown">
-		You do not have connection data stored for this network yet.
-		\nWhen you tap Okay, Android\'s settings utility will be opened.
-		\nPlease connect to the network there.
+		Non hai ancora salvato i dati di connessione per questa rete.
+		\nQuando premi OK, sarà aperto il menu inpostazioni di Android.
+		\nSi prega di collegarsi alla rete da lì.
 	</string>
-	<string name="macTrusted">Trusted</string>
-	<string name="macBlocked">Blocked</string>
+	<string name="macTrusted">Permesso</string>
+	<string name="macBlocked">Bloccato</string>
 
 	<string name="macQuestion"><![CDATA[
-		Would you like to activate MAC checks?<br />
-		By default, Android <i>only</i> checks the name of a network before connecting to it.<br />
-		That means that if you have a network saved, and Android detects another network with the same name, Android automatically tries to connect to it.<br />
-		A malicious device could use this to collect passwords or send harmful data to your device.<br />
-		Checking it thus helps verify a network\'s identity.<br />
-		It is strongly recommended that you enable this, but it means a few additional warnings will be shown.
+		Vuoi attivare il controllo del MAC?<br />
+		Per impostazione predefinita, Android controlla <i>solo</i> il NOME di una rete prima di collegarsi ad essa.<br />
+		Questo significa che se si dispone di una rete salvata, e viene rilevata un'altra rete con lo stesso nome, Android tenterà automaticamente di connettersi ad essa.<br />
+		Un dispositivo di un malintenzionato potrebbe utilizzare questo fatto per raccogliere le password o inviare dati dannosi per il proprio dispositivo.<br />
+		Questo controllo quindi contribuisce a verificare l'\identità di una rete.<br />
+	        Si raccomanda vivamente di attivare questo controllo, ma ciò comporta che saranno mostrate un paio di avvertenze supplementari.
 	]]></string>
 	<string name="compatibilityModeActive">Legacy mode activated instead. You can change this in settings.</string>
 	
