@@ -8,7 +8,7 @@
 	<string name="nActionDisconnect">Disconnetti</string>
 	<string name="nActionRemove">Disabilita Connessione automatica</string>
 	<string name="undo">Annulla</string>
-	<string name="widgetDescription">Attivazione gestione automatica WiFi</string>
+	<string name="widgetDescription">Attiva/Disattiva gestione automatica WiFi</string>
 	<string name="widget_auto"Attivazione funzione automatica</string>
 	<string name="widget_scan">Scansione immediata</string>
 	<string name="widgetScanText">Scansione</string>
