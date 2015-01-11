@@ -53,15 +53,15 @@
 		Questo controllo quindi contribuisce a verificare l'\identità di una rete.<br />
 	        Si raccomanda vivamente di attivare questo controllo, ma ciò comporta che saranno mostrate un paio di avvertenze supplementari.
 	]]></string>
-	<string name="compatibilityModeActive">Legacy mode activated instead. You can change this in settings.</string>
+	<string name="compatibilityModeActive">Legacy mode activated instead. E' possibile modificare questo nelle impostazioni.</string>
 	
 	<string name="prefCatWifi">WiFi</string>
-	<string name="prefRefreshTime">Refresh interval</string>
-	<string name="prefRefreshTimeDesc">How often to check whether a network is in range. The smaller the interval, the quicker you will be connected, but the more battery is used!</string>
-	<string name="prefMacCheck">MAC check</string>
-	<string name="prefMacCheckDesc">Here you can disable the MAC check before a connection attempt (not recommended!). For more information about this feature please consult the \"Networks\" help.</string>
-	<string name="prefAutoFuncs">Automatic WiFi management</string>
-	<string name="prefAutoFuncsDesc">Automatically switch WiFi on and off and connect to known networks. Required to save battery! There is a widget for this setting for quick access.</string>
+	<string name="prefRefreshTime">Intervallo di aggiornamento</string>
+	<string name="prefRefreshTimeDesc">Con quale frequenza sarà controllato se una rete si trova nelle vicinanze. Più piccolo sarà l'\intervallo, più velocemente avverrà il collegamento, ma sarà usata più batteria!</string>
+	<string name="prefMacCheck">Controllo del MAC</string>
+	<string name="prefMacCheckDesc">Qui puoi disabilitare il controllo del MAC prima di un tentativo di connessione (non consigliato!). Per più informazioni su questa funzione per favore consulta la guida \"Reti\".</string>
+	<string name="prefAutoFuncs">Gestione automatica della WiFi</string>
+	<string name="prefAutoFuncsDesc">Accendere e spengere automaticamente la WiFi e connettersi alle reti conosciute. Necessario per risparmiare batteria! C'\è un widget per un accesso rapido a questa impostazione.</string>
 	<string name="prefLegacy">Legacy auto-scan mode</string>
 	<string name="prefLegacyDesc">In Android >= 4.3 auto-scan uses low-power WiFi, which is more efficient than turning it off and on all the time. On some devices, this feature is broken and it uses full power anyway. If you see high energy usage, please activate this and disable the "Scanning always available" option in your device\'s advanced WiFi settings. This setting has no effect on Android &lt; 4.3.</string>
 	<string name="prefCatPlan">Automation</string>
@@ -82,18 +82,18 @@
 	<string name="macNotifText">The network %s was found, but no connection was established because its MAC address changed. Please tap here for options.</string>
 
 	<string-array name="refreshTimeNames">
-		<item>30 seconds</item>
-		<item>1 minute</item>
-		<item>2 minutes</item>
-		<item>3 minutes</item>
-		<item>5 minutes</item>
-		<item>10 minutes</item>
-		<item>Customâ€¦</item>
+		<item>30 secondi</item>
+		<item>1 minuto</item>
+		<item>2 minuti</item>
+		<item>3 minuti</item>
+		<item>5 minuti</item>
+		<item>10 minutis</item>
+		<item>Personalizzato</item>
 	</string-array>
-	<string name="timePickerMinutes">Minutes</string>
+	<string name="timePickerMinutes">Minuti</string>
 
 	<string-array name="help_spinner">
-		<item>General</item>
+		<item>Generale</item>
 		<item>@string/action_wifi</item>
 		<item>@string/action_networks</item>
 	</string-array>
