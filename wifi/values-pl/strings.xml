@@ -63,12 +63,12 @@
 	<string name="prefAutoFuncs">Automatyczne zarządzanie WiFi</string>
 	<string name="prefAutoFuncsDesc">Automagicznie włączaj i wyłączaj WiFi oraz łącz się z zapisanymi sieciami. Jest to wymagane by oszczędzać baterie! Jest też widżet dla szybszego dostępu dla tego ustawienia.</string>
 	<string name="prefLegacy">Autoskanowanie w trybie zgodnosci</string>
-	<string name="prefLegacyDesc">W wersjach >= 4.3 wiFi do automatycznego skanowania używa małej mocy, co jest bardziej wydajne niż ciągłe włączanie i wyłączanie WiFi. Na niektórych urządzeniach, ten mechanizm nie działa prawidłowo i używana jest pełna moc. Jeśli zaobserwujesz zwiększone zużycie prądu włacz to i wyłącz opcje "Skanowanie zawsze dostępne" w zaawansowanych ustawieniach WiFi. W wersjach &lt; 4.3 to ustawienie nie daje żadnego efektu.</string>
+	<string name="prefLegacyDesc">W wersjach >= 4.3 WiFi do automatycznego skanowania używa małej mocy, co jest bardziej wydajne niż ciągłe włączanie i wyłączanie WiFi. Na niektórych urządzeniach, ten mechanizm nie działa prawidłowo i używana jest pełna moc. Jeśli zaobserwujesz zwiększone zużycie prądu włacz to i wyłącz opcje "Skanowanie zawsze dostępne" w zaawansowanych ustawieniach WiFi.</string>
 	<string name="prefCatPlan">Automatyzacja</string>
 	<string name="prefPlanEnabled">Włącz planowanie</string>
-	<string name="prefPlanEnabledDesc">This setting, along with the \"Start time\" and <b>End time</b> settings can be used to make WiFi Better Battery switch off WiFi at certain times, for instance during the night.</string>
-	<string name="prefPlanStart">Start time</string>
-	<string name="prefPlanEnd">End time</string>
+	<string name="prefPlanEnabledDesc">To ustawienie zgodnie z wybranym czasem rozpoczęcia i zakończenia może być używane do wyłączania WiFi o określonych porach, np. w nocy.</string>
+	<string name="prefPlanStart">Początek</string>
+	<string name="prefPlanEnd">Koniec</string>
 	<string name="prefDisableScreenOff">Wyłącz wraz z wyłączeniem się ekranu</string>
 	<string name="prefDisableScreenOffDesc">By jeszcze zmniejszyć zużycie prądu wyłącz skanowanie gdy ekran Twojego urządzenia jest wyłączony.</string>
 	<string name="prefDisconnectScreenOff">Rozłącz wraz z wyłączeniem się ekranu</string>
@@ -121,7 +121,7 @@
 			<h1>Kontrola MAC</h1>
 			Kontrola adresu MAC jest dodatkowym zabezpieczeniem sprawdzającym czy sieć z którą się łączysz jest rzeczywiście tą z którą chcesz się połączyć.<br />
 			Domyślnie, Android sprawdza <i>tylko</i> nazwe sieci przed połączeniem się z nią.<br />
-			TTo oznacza że jeśli masz już zapisaną sieć, a Android wykryje inną o tej samej nazwie będzie próbował połączyć sięz nią automatycznie.<br />
+			To oznacza że jeśli masz już zapisaną sieć, a Android wykryje inną o tej samej nazwie będzie próbował połączyć się z nią automatycznie.<br />
 			Możliwe że został użyty sprzęt ze złosliwym oprogramowaniem by zbierać hasła lub wysyłać szkodliwe dane do Twojego urządzenia.<br />
 			Adres MAC jednoznacznie identyfikuje urządzenie.
 			<h1>Jak to działa</h1>
