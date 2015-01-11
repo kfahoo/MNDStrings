@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Actions -->
+	<string name="app_name"/>
+	<string name="drawer_open">Otwórz menu</string>
+	<string name="drawer_close">Zamknij menu</string>
+	<string name="action_settings">Ustawienia</string>
+	<string name="action_help">Pomoc</string>
+	<string name="action_about">O progamie</string>
+	<string name="expand">Rozwiń</string>
+	<string name="collapse">Zwiń</string>
+	<string name="action_add">Dodaj</string>
+	<string name="action_edit">Edytuj</string>
+	<string name="action_delete">Usuń</string>
+	<string name="pleaseWait">Poczekaj chwilke</string>
+	
+	<!-- Preferences -->
+	<string name="prefCatGeneral">Ogólne</string>
+	<string name="prefLang">Język</string>
+	<string name="systemLanguage">Język systemu</string>
+	<string name="prefAds">Pokaż reklamy</string>
+	<string name="prefAdsDesc">Pozwól na pokazywanie dyskretnych reklam by wesprzeć autora.</string>
+	<string name="prefTheme">Motyw</string>
+	<string name="prefThemeDesc">Tutaj możesz wybrać między jasnym a ciemnym motywem.</string>
+	<string name="themeLight">Jasny</string>
+	<string name="themeDark">Ciemny</string>
+	<string name="prefDrawer">Menu podczas uruchomienia </string>
+	<string name="prefDrawerDesc">Jesli to włączysz przy starcie po lewej stronie pojawi menu. (Nie działa na tabletach)</string>
+	<string name="adsAsk">
+		Rozumiemy niechęć do reklam, one potrafią być irytujące. ale tworzenie aplikacji to ciężka praca.
+		\nJeśli bardzo nie chcesz oglądać reklam, proszę rozważ wsparcie finansowe.
+	</string>
+	
+	<!-- Help -->
+   	<string name="helpNav"><![CDATA[
+		<h1>Nawigacja</h1>
+		Dotykając przycisk z trzema poziomymi liniami w lewem górnym rogu, otworzysz menu nawigacyjne. (Na tabletach jest ono zawsze otwarte.)<br />
+		Do wszystkich pozostałych stron pomocy możesz uzyskać dostęp dotykając &quot;%s&quot; powyżej.
+	]]></string>
+	<string name="helpUs"><![CDATA[
+	    <h1>Potrzebujemy Twojej pomocy!</h1>
+		Proszę pomóż %1$s zdobyć popularność poprzez polecenie go swoim znajomym lub poprzez jedną z poniższych czynności:<br /><br />
+		<a href="https://www.facebook.com/%2$s">Proszę polub i udostępnij naszą strone na Facebooku!</a><br /><br />
+		<a href="market://details?id=%3$s">Proszę oceń %1$s w sklepie Google Play!</a><br /><br />
+		<a href="">Możesz rownież pomoć wspomagając finansowo!</a>
+		<a href="https://github.com/CanisLupusXenonis/MNDStrings">Lub po prostu pomoc przetłumaczyć aplikacje na inne języki!</a>
+	]]></string>
+    <string-array name="help_spinner"/>
+    <string-array name="help_texts"/>
+    <string name="helpUsTitle">Potrzebujemy Twojej pomocy!</string>
+    <string name="helpUsMessage">Podoba Ci się %s? Jeśli tak, proszę…</string>
+    <string-array name="helpUsItems">
+        <item>oceń go w sklepie Google Play dając mu 5 gwiazdek</item>
+        <item>polub go na Facebooku!</item>
+        <item>napisz do nas!</item>
+	    <item>wesprzyj nas finansowo!</item>
+    </string-array>
+	
+	<!-- Info -->
+	<string name="credits"><b>Autor</b>\nMichael Heissenberger</string>
+	<string name="translatorsTitle">Osoby tłumaczące</string>
+	<string name="disclaimer"><b>Warunki użytkowania</b>
+	    \nTa aplikacja ma na celu udzielenie wskazówek i porad, jako darmowa pomoc dla tych którzy jej potrzebują. Ponieważ jest to aplikacja zewnętrzna, nie możemy zagwarantować, że będzie działać poprawnie czy nawet że będziemy w stanie dać właściwą poradę.
+	    \nUżywając tej aplikacji, użytkownik zgadza się nie obarczać nas odpowiedzialnością za jakiekolwiek szkody lub problemy, które mogą być wynikiem korzystania z tej aplikacji.
+	</string>
+	<string name="contactUs">Napisz</string>
+	<string name="donate">Wesprzyj</string>
+	<string name="noMailApp">Nie znaleziono klienta poczty.</string>
+	<string name="noBrowserApp">Nie znaleziono przeglądarki.</string>
+
+	<string name="donateText">
+		Dziękujemy za rozważenie wsparcia nas!
+		\nCieszymy się że aplikacja spodobała Ci się na tyle że zechciałeś/aś dać coś od siebie.
+		\nBy podziękować ci za wsparcie, jeśli to zrobisz, będziesz mogł wyłączyć reklamy!
+	</string>
+	<string name="donate1">Pozbadź się reklam! (%s)</string>
+	<string name="donate2">Bądź dobrym człowiekiem! (%s)</string>
+	<string name="donate3">Kup naszą miłość! (%s)</string>
+	<string name="donateThankYou">Dziękujemy bardzo za wsparcie! Możęsz teraz wyłączyć reklamy w Ustawieniach.</string>
+	<string name="connectionError">Niestety wystąpił błąd. Może być problem z połączeniem internetowym.</string>
+	<string name="alreadyDonated">Już to kupiłeś. Wielkie dzięki</string>
+
+	<!-- Dialog fields -->
+	<string name="dialogYes">Tak</string>
+	<string name="dialogNo">Nie</string>
+	<string name="dialogNotNow">Nie teraz</string>
+	<string name="dialogNever">Nie, i nie pytaj ponownie</string>
+	<string name="dialogSave">Zapisz</string>
+	<string name="dialogCancel">Anuluj</string>
+	<string name="dialogOK">Okej</string>
+
+</resources>

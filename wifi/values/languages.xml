@@ -4,12 +4,14 @@
 	    <item>@string/systemLanguage</item>
 	    <item>Deutsch</item>
 	    <item>English</item>
+	    <item>Polski</item>
 	    <item>Русский</item>
 	</string-array>
 	<string-array name="langCodes" translatable="false">
 	    <item>auto</item>
 	    <item>de</item>
 	    <item>en</item>
+	    <item>pl</item>
 	    <item>ru</item>
 	</string-array>
 </resources>

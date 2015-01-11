@@ -31,22 +31,20 @@
 		Wir verstehen, dass Sie keine Werbung mögen, sie kann wirklich nerven. Aber das Entwickeln von Apps ist viel harte Arbeit.
 		\nWenn Sie wirklich keine Werbung sehen wollen, möchten sie diese harte Arbeit vielleicht stattdessen mit einer kleinen Spende entlohnen?
 	</string>
-	<!--<string name="adsAsk">Wir zeigen Ihnen Werbung, damit wir Ihnen unsere Dienste kostenlos anbieten können. Wollen Sie sie wirklich deaktivieren?</string>
-	<string name="adsThankYou">Vielen Dank!</string>-->
 	
 	<!-- Help -->
 	<string name="helpNav"><![CDATA[
 		<h1>Navigation</h1>
-		Indem Sie auf die drei horizontalen Linien links oben tippen, öffnen Sie die Seitenleiste, die Ihnen schnellen Zugriff auf alle Funktionen ermöglicht. (Auf Tablets ist diese immer offen.)<br />
-		Sie können von hier aus auf alle anderen Hilfeseiten zugreifen, indem Sie oben auf &quot;%s&quot; drücken.<br />
-		Mit der Zurück-Taste (Pfeil) beenden Sie das Programm. Mit der Home-Taste (Haus) minimieren Sie das Programm.
+		Indem Sie auf die drei horizontalen Linien links oben tippen, öffnen Sie die Navigations-Seitenleiste. (Auf Tablets ist diese immer offen.)<br />
+		Sie können von hier aus auf alle anderen Hilfeseiten zugreifen, indem Sie oben auf &quot;%s&quot; drücken.
 	]]></string>
 	<string name="helpUs"><![CDATA[
 	    <h1>Wir brauchen Ihre Hilfe!</h1>
 		Bitte helfen Sie %1$s dabei, bekannter zu werden, indem Sie die App Ihren Freunden empfehlen oder eine der folgenden Möglichkeiten nutzen:<br /><br />
 		<a href="https://www.facebook.com/%2$s">Bitte teilen Sie unsere Facebook-Seite und drücken Sie auf &quot;Gefällt mir&quot;!</a><br /><br />
 		<a href="market://details?id=%3$s">Bitte bewerten Sie %1$s im Google Play Store!</a><br /><br />
-		<a href="">Sie können auch mit einer Spende helfen!</a>
+		<a href="">Sie können auch mit einer Spende helfen!</a><br /><br />
+		<a href="https://github.com/CanisLupusXenonis/MNDStrings">Oder indem Sie bei einer Übersetzung helfen!</a>
 	]]></string>
     <string-array name="help_spinner"/>
     <string-array name="help_texts"/>
@@ -62,7 +60,6 @@
 	<!-- Info -->
 	<string name="credits"><b>Entwickler</b>\nMichael Heissenberger</string>
 	<string name="translatorsTitle">Übersetzer</string>
-	<string name="translators" />
 	<string name="disclaimer"><b>Haftungsausschluss</b>
 	    \nEs gibt keine Garantie für die Richtigkeit der bereitgestellten Informationen oder für das einwandfreie Funktionieren der bereitgestellten Dienste.
 	    \nDie Dienste werden unentgeltlich bereitgestellt. Es können gegenüber den Entwicklern keine Ansprüche geltend gemacht werden.

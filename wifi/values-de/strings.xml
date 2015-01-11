@@ -9,6 +9,9 @@
 	<string name="nActionRemove">Automatisches Verbinden deaktivieren</string>
 	<string name="undo">Rückgängig</string>
 	<string name="widgetDescription">Schaltet automatische WLAN-Verwaltung ein/aus</string>
+	<string name="widget_auto">Automatische Funktionen ein-/ausschalten</string>
+	<string name="widget_scan">Sofort-Scan</string>
+	<string name="widgetScanText">Scan</string>
 
 	<string name="wifiLevel">Verbindungsqualität</string>
 	<string name="wifiConnected">Verbunden</string>
@@ -39,6 +42,8 @@
 		\nWenn Sie auf Okay drücken, wird das Android-Einstellungsmenü geöffnet.
 		\nBitte verbinden Sie sich einmalig dort mit dem Netzwerk.
 	</string>
+	<string name="macTrusted">Zugelassen</string>
+	<string name="macBlocked">Blockiert</string>
 
 	<string name="macQuestion"><![CDATA[
 		Möchten Sie MAC-Überprüfungen aktivieren?<br />
@@ -102,19 +107,17 @@
 			<b>Internet:</b> Für Werbung.<br />
 		]]></item>
 		<item><![CDATA[
-			<h1>Liste aller Netzwerke</h1>
+			<h1>Verfügbare Netzwerke</h1>
 			Gleich nach dem Öffnen der App wird Ihnen die Liste aller verfügbaren Netzwerke angezeigt. Dazu muss WLAN nicht eingeschaltet sein.<br />
 			Sie sehen hier die Namen der Netzwerke und die Signalstärken. Wenn Sie auf ein Netzwerk drücken, werden Ihnen dazu Optionen angezeigt.<br />
-			Wenn Sie auf \"Automatisch verbinden\" drücken, verbindet sich Ihr Gerät mit dem Netzwerk. Wenn Sie das nächste Mal in Reichweite des Netzwerks sind, werden Sie wieder automatisch mit dem Netzwerk verbunden, auch dann, wenn WLAN ausgeschaltet ist.<br />
-			Bei \"Einmal verbinden\" bleibt Ihr Gerät so lange mit dem Netzwerk verbunden, bis es außer Reichweite kommt, danach wird nach einer kurzen Verzögerung WLAN abgeschaltet.<br />
-			Haben Sie sich mit einem Netzwerk noch nie verbunden, müssen Sie wahrscheinlich einmalig Zugangsdaten angeben.
 			<h1>Mögliche Warnungen</h1>
 			Wenn Sie in den Einstellungen die MAC-Überprüfung aktiviert haben, kann es zu einigen Warnungen kommen. Zu weiteren Informationen dazu sehen Sie bitte in der Hilfe zu \"Netzwerke\" nach.<br />
 			Bei Verbindungsproblemen folgen Sie bitte den Anweisungen, die Ihnen die Android-Systemeinstellungen anbieten.
 		]]></item>
 		<item><![CDATA[
-			<h1>Netzwerke</h1>
-			Diese Funktion ist hauptsächlich relevant, wenn in den Einstellungen die MAC-Überprüfung aktiv ist (empfohlen!).
+			<h1>Gespeicherte Netzwerke</h1>
+			Hier können Sie Ihre gespeicherten Netzwerke und zugehörige MACs bearbeiten.
+			Diese Funktion ist besonders relevant, wenn in den Einstellungen die MAC-Überprüfung aktiv ist (empfohlen!).
 			<h1>MAC-Überprüfung</h1>
 			Die MAC-Überprüfung ist eine zusätzliche Überprüfung, ob das Netzwerk, mit dem Sie sich verbinden möchten, auch das ist, wofür Sie es halten.<br />
 			Standardmäßig überprüft Android bei einem Netzwerk nämlich <i>nur</i> den Namen.<br />

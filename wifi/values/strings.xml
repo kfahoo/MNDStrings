@@ -9,6 +9,9 @@
 	<string name="nActionRemove">Disable auto connect</string>
 	<string name="undo">Undo</string>
 	<string name="widgetDescription">Toggles automatic WiFi management</string>
+	<string name="widget_auto">Toggle automatic functions</string>
+	<string name="widget_scan">Instant scan</string>
+	<string name="widgetScanText">Scan</string>
 
 	<string name="wifiLevel">Connection quality</string>
 	<string name="wifiConnected">Connected</string>
@@ -39,6 +42,8 @@
 		\nWhen you tap Okay, Android\'s settings utility will be opened.
 		\nPlease connect to the network there.
 	</string>
+	<string name="macTrusted">Trusted</string>
+	<string name="macBlocked">Blocked</string>
 
 	<string name="macQuestion"><![CDATA[
 		Would you like to activate MAC checks?<br />
@@ -102,7 +107,7 @@
 			<b>Internet:</b> Used only for Google ads.<br />
 		]]></item>
 		<item><![CDATA[
-			<h1>List of networks</h1>
+			<h1>Available networks</h1>
 			After opening the app, the first thing you see is the list of available networks. WiFi does not have to be turned on for this function.<br />
 			You can see the names and signal strengths of the networks here. When you tap on a network, the options for it are displayed.
 			<h1>Warnings</h1>
@@ -110,7 +115,9 @@
 			For connection problems, please follow the instructions offered by the Android system settings.
 		]]></item>
 		<item><![CDATA[
-			This function is mainly relevant if the MAC check is enabled in the Settings (recommended!).
+			<h1>Saved networks</h1>
+			Here you can edit your saved networks and corresponding MAC addresses.
+			This function is most useful if the MAC check is enabled in the Settings (recommended!).
 			<h1>MAC check</h1>
 			The MAC check is an added check whether the network you want to connect to is actually the one you think it is.<br />
 			By default, Android <i>only</i> checks the name of a network before connecting to it.<br />
