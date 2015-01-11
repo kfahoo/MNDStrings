@@ -8,20 +8,20 @@
 	<string name="nActionDisconnect">Disconnettere</string>
 	<string name="nActionRemove">Disabilita Connessione automatica</string>
 	<string name="undo">Annulla</string>
-	<string name="widgetDescription">Attiva gestione automatica WiFi</string>
-	<string name="widget_auto">Toggle automatic functions</string>
-	<string name="widget_scan">Instant scan</string>
-	<string name="widgetScanText">Scan</string>
+	<string name="widgetDescription">Attivazione gestione automatica WiFi</string>
+	<string name="widget_auto"Attivazione funzione automatica</string>
+	<string name="widget_scan">Scansione immediata</string>
+	<string name="widgetScanText">Scansione</string>
 
-	<string name="wifiLevel">Connection quality</string>
-	<string name="wifiConnected">Connected</string>
-	<string name="wifiEmpty">No networks have been found.</string>
+	<string name="wifiLevel">Qualità del collegamento</string>
+	<string name="wifiConnected">Connesso</string>
+	<string name="wifiEmpty">Nessuna rete trovata.</string>
 	<string name="newMac">
-		You are connecting to this network for the first time!
-		\nThe router\'s MAC address is %s. If possible, please verify it.
-		\nDon\'t be concerned that you are seeing this notification - it is only shown as a security mechanism.
-		\nIf you are certain that you are connecting to the correct network, you can just tap \"Connect\".
-		\nYou can disable this warning in Settings.
+		Sei connesso a questa rete per la prima volta!
+		\nL\'indirizzo del Router è %s. Se possibile si prega di controllare.
+		\nNon preoccupatevi se state vedendo questo messaggio - viene mostrato solo come meccanismo di sicurezza.
+		\nSe si è certi che ci si connette alla rete corretta, si può tranquillamente premere \"Connetti\".
+		\nÈ possibile disattivare questo avviso nelle impostazioni.
 	</string>
 	<string name="macChanged">
 		The router\'s MAC address has changed!
