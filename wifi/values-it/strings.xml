@@ -115,20 +115,20 @@
 			Per problemi di connessione, si prega di seguire le istruzioni presenti nelle impostazioni di sistema di Android.
 		]]></item>
 		<item><![CDATA[
-			<h1>Saved networks</h1>
-			Here you can edit your saved networks and corresponding MAC addresses.
-			This function is most useful if the MAC check is enabled in the Settings (recommended!).
-			<h1>MAC check</h1>
-			The MAC check is an added check whether the network you want to connect to is actually the one you think it is.<br />
-			By default, Android <i>only</i> checks the name of a network before connecting to it.<br />
-			That means that if you have a network saved, and Android detects another network with the same name, Android automatically tries to connect to it.<br />
-			A malicious device could use this to collect passwords that are sent during connection attempts or send harmful data to your device.<br />
-			A MAC address uniquely identifies a device.
-			<h1>How it works</h1>
-			When connecting to a network and when the MAC check is on, Wifi Better Battery automatically checks whether the MAC address is known for this network.<br />
-			In \"Networks\" you can delete known networks and MAC addresses that you have added at an earlier time.
+			<h1>Reti salvate</h1>
+			Qui è possibile modificare le reti salvate e i corrispondenti indirizzi MAC.
+			Questa funzione è molto utile se il controllo del MAC è abilitato nelle impostazioni (consigliato!).
+			<h1>Controllo del MAC</h1>
+			La verifica del MAC è un controllo aggiuntivo per verificare che la rete a cui vuoi connetterti sia attualmente quella che pensi che sia.<br />
+			Per impostazione predefinita, Android controlla <i>solo</i> il NOME di una rete prima di collegarsi ad essa.<br />
+			Questo significa che se si dispone di una rete salvata, e viene rilevata un'altra rete con lo stesso nome, Android tenterà automaticamente di connettersi ad essa.<br />
+			Un dispositivo di un malintenzionato potrebbe utilizzare questo fatto per raccogliere le password o inviare dati dannosi per il proprio dispositivo.<br />
+			Un indirizzo MAC identifica univocamente un dispositivo.
+			<h1>Come funziona</h1>
+			Quando ci si collega a una rete e il controllo del MAC è attivato, Wifi Better Battery verifica automaticamente che l'\indirizzo MAC sia quello conosciuto per quella rete.<br />
+			In \"Reti\" puoi cancellare le reti conosciute e l'\indirizzo MAC che si è aggiunto in un momento precedente.
 		]]></item>
 	</string-array>
 
-	<string name="dialogConnect">Collegarsi</string>
+	<string name="dialogConnect">Connettere</string>
 </resources>
