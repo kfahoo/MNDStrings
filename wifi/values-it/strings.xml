@@ -1,0 +1,134 @@
+<resources>
+	<string name="app_name">WiFi Better Battery</string>
+	<string name="action_wifi">Gestore WiFi</string>
+	<string name="action_networks">Reti</string>
+	<string name="action_refresh">Scansione</string>
+	<string name="nActionConnect">Connettere una volta</string>
+	<string name="nActionAdd">Connessione automatica</string>
+	<string name="nActionDisconnect">Disconnetti</string>
+	<string name="nActionRemove">Disabilita connessione automatica</string>
+	<string name="undo">Annulla</string>
+	<string name="widgetDescription">Attiva/Disattiva gestione automatica WiFi</string>
+	<string name="widget_auto"Attiva/Disattiva funzione automatica</string>
+	<string name="widget_scan">Scansione immediata</string>
+	<string name="widgetScanText">Scansione</string>
+
+	<string name="wifiLevel">Qualità del collegamento</string>
+	<string name="wifiConnected">Connesso</string>
+	<string name="wifiEmpty">Nessuna rete trovata.</string>
+	<string name="newMac">
+		Sei connesso a questa rete per la prima volta!
+		\nL\'indirizzo del Router è %s. Se possibile si prega di controllare.
+		\nNon preoccupatevi se state vedendo questo messaggio - viene mostrato solo come meccanismo di sicurezza.
+		\nSe si è certi che ci si connette alla rete corretta, si può tranquillamente premere \"Connetti\".
+		\nÈ possibile disattivare questo avviso nelle impostazioni.
+	</string>
+	<string name="macChanged">
+		L'\indirizzo MAC del router è cambiato!
+		\nCiò potrebbe significare che un'\altra rete sta fingendo di essere la rete %1$s!
+		\nQuesta notifica potrebbe anche essere visualizzata se: 1) Il router della rete è stato sostituito. 2) Una rete utilizza più router.
+		\nL'indirizzo MAC sconosciuto è %2$s.
+		\nÈ possibile disattivare questo avviso nelle impostazioni.
+	</string>
+	<string name="macAdd">Aggiungi indirizzo MAC a quelli noti per questa rete</string>
+	<string name="macDontConnect">Non connettere</string>
+	<string name="networksEmpty">Nessuna rete è ancora stata salvata!</string>
+	<string name="macsEmpty">Nessun indirizzo MAC è ancora noto per questa rete!</string>
+	<string name="networkDeleted">Rete cancellata: %s</string>
+	<string name="macDeleted">MAC cancellato: %s</string>
+	<string name="connectingTo">Connessione a %s</string>
+	<string name="networkUnknown">
+		Non hai ancora salvato i dati di connessione per questa rete.
+		\nQuando premi OK, sarà aperto il menu inpostazioni di Android.
+		\nSi prega di collegarsi alla rete da lì.
+	</string>
+	<string name="macTrusted">Permesso</string>
+	<string name="macBlocked">Bloccato</string>
+
+	<string name="macQuestion"><![CDATA[
+		Vuoi attivare il controllo del MAC?<br />
+		Per impostazione predefinita, Android controlla <i>solo</i> il NOME di una rete prima di collegarsi ad essa.<br />
+		Questo significa che se si dispone di una rete salvata, e viene rilevata un'\altra rete con lo stesso nome, Android tenterà automaticamente di connettersi ad essa.<br />
+		Un dispositivo di un malintenzionato potrebbe utilizzare questo fatto per raccogliere le password o inviare dati dannosi per il proprio dispositivo.<br />
+		Questo controllo quindi contribuisce a verificare l'\identità di una rete.<br />
+	        Si raccomanda vivamente di attivare questo controllo, ma ciò comporta che saranno mostrate un paio di avvertenze supplementari.
+	]]></string>
+	<string name="compatibilityModeActive">Modalità Legacy attivata. E' possibile modificare questo nelle impostazioni.</string>
+	
+	<string name="prefCatWifi">WiFi</string>
+	<string name="prefRefreshTime">Intervallo di aggiornamento</string>
+	<string name="prefRefreshTimeDesc">Con quale frequenza sarà controllato se una rete si trova nelle vicinanze. Più piccolo sarà l'\intervallo, più velocemente avverrà il collegamento, ma sarà usata più batteria!</string>
+	<string name="prefMacCheck">Controllo del MAC</string>
+	<string name="prefMacCheckDesc">Qui puoi disabilitare il controllo del MAC prima di un tentativo di connessione (non consigliato!). Per più informazioni su questa funzione per favore consulta la guida \"Reti\".</string>
+	<string name="prefAutoFuncs">Gestione automatica della WiFi</string>
+	<string name="prefAutoFuncsDesc">Accendere e spengere automaticamente la WiFi e connettersi alle reti conosciute. Necessario per risparmiare batteria! C'\è un widget per un accesso rapido a questa impostazione.</string>
+	<string name="prefLegacy">Auto-scan in modalità Legacy</string>
+	<string name="prefLegacyDesc">In Android >= 4.3 l'\auto-scan usa la modalità WiFi a bassa potenza, che è più efficiente che spegnerla e accenderla tutte le volte. In alcuni dispositivi, questa caratteristica non funziona e viene usata in ogni caso tutta la potenza. Se si vede un elevato utilizzo di energia, si prega di attivare questa funzione e disattivare l'\opzione "Ricerca reti sempre attiva" nelle impostazioni avanzate del tuo dispositivo. Questa impostazione non ha effetti su Android &lt; 4.3.</string>
+	<string name="prefCatPlan">Automatismi</string>
+	<string name="prefPlanEnabled">Abilita pianificazione</string>
+	<string name="prefPlanEnabledDesc">Questa impostazione, insieme al settaggio \"Ora d'\inizio\" e <b>Ora di fine</b> può essere usata per far sì che WiFi Better Battery spenga la WiFi in certi momenti, per esempio durante la notte.</string>
+	<string name="prefPlanStart">Ora d'\inizio</string>
+	<string name="prefPlanEnd">Ora di fine</string>
+	<string name="prefDisableScreenOff">Disabilita con schermo spento</string>
+	<string name="prefDisableScreenOffDesc">Disabilita la scansione quando lo schermo del tuo dispositivo è spento per risparmiare ancor più batteria.</string>
+	<string name="prefDisconnectScreenOff">Disconnetti con lo schermo spento</string>
+	<string name="prefDisconnectScreenOffDesc">Disconnetti da qualsiasi rete a cui si è connessi quando lo schermo viene spento. Questa funzione non controlla se ci sono download attivi.</string>
+	<string name="prefScanScreenOn">Scansione con schermo acceso</string>
+	<string name="prefScanScreenOnDesc">Avviare una scansione per reti WiFi quando lo schermo del dispositivo viene acceso.</string>
+	<string name="prefScanConnected">Scansione durante la connessione</string>
+	<string name="prefScanConnectedDesc">Utilizza più batteria, ma consente il Roaming del WiFi (passaggio ad un altra rete con un migliore segnale di connessione)</string>
+
+	<string name="macNotifTitle">Rilevato cambio di MAC!</string>
+	<string name="macNotifText">E'\ stata trovata la rete %s, ma non è stata stabilita alcuna connessione perchè l'\indirizzo MAC è cambiato. Si prega di premere qui per le opzioni.</string>
+
+	<string-array name="refreshTimeNames">
+		<item>30 secondi</item>
+		<item>1 minuto</item>
+		<item>2 minuti</item>
+		<item>3 minuti</item>
+		<item>5 minuti</item>
+		<item>10 minutis</item>
+		<item>Personalizzato</item>
+	</string-array>
+	<string name="timePickerMinutes">Minuti</string>
+
+	<string-array name="help_spinner">
+		<item>Generale</item>
+		<item>@string/action_wifi</item>
+		<item>@string/action_networks</item>
+	</string-array>
+
+	<string-array name="help_texts">
+		<item><![CDATA[
+			<h1>Permissions</h1>
+			Le autorizzazioni che WiFi Better Battery richiede sul dispositivo sono state scelte con grande cura. Tutte le autorizzazioni sono necessarie per la sua piena funzionalità.<br />
+			Nel caso tu avessi ancora preoccupazioni riguardo l'\elenco di tutte le autorizzazioni richieste, ciascuna ha una spiegazione del perchè ne abbiamo bisogno.<br /><br />
+			<b>Autorizzazioni di rete:</b> Necessaria per elencare tutte le reti disponibili e per connettersi ad esse.<br />
+			<b>Internet:</b> Utilizzata solo per gli annunci di Google.<br />
+		]]></item>
+		<item><![CDATA[
+			<h1>Reti disponibili</h1>
+			Dopo aver aperto l'\app, la prima cosa che si vede è la lista delle reti disponibili. La WiFi non deve essere attivata per questa funzione.<br />
+			E'\ possibile vedere qui i nomi e la potenza del segnale delle reti. Quando si preme su una rete, vengono visualizzate le opzioni di questa.
+			<h1>Avvertenze</h1>
+			Se il controllo del MAC è abilitato nelle impostazioni, è possibile avere un avviso quando ci si collega. Per maggiori informazioni consulta la guida \"Reti\".<br />
+			Per problemi di connessione, si prega di seguire le istruzioni presenti nelle impostazioni di sistema di Android.
+		]]></item>
+		<item><![CDATA[
+			<h1>Reti salvate</h1>
+			Qui è possibile modificare le reti salvate e i corrispondenti indirizzi MAC.
+			Questa funzione è molto utile se il controllo del MAC è abilitato nelle impostazioni (consigliato!).
+			<h1>Controllo del MAC</h1>
+			La verifica del MAC è un controllo aggiuntivo per verificare che la rete a cui vuoi connetterti sia attualmente quella che pensi che sia.<br />
+			Per impostazione predefinita, Android controlla <i>solo</i> il NOME di una rete prima di collegarsi ad essa.<br />
+			Questo significa che se si dispone di una rete salvata, e viene rilevata un'altra rete con lo stesso nome, Android tenterà automaticamente di connettersi ad essa.<br />
+			Un dispositivo di un malintenzionato potrebbe utilizzare questo fatto per raccogliere le password o inviare dati dannosi per il proprio dispositivo.<br />
+			Un indirizzo MAC identifica univocamente un dispositivo.
+			<h1>Come funziona</h1>
+			Quando ci si collega a una rete e il controllo del MAC è attivato, Wifi Better Battery verifica automaticamente che l'\indirizzo MAC sia quello conosciuto per quella rete.<br />
+			In \"Reti\" puoi cancellare le reti conosciute e l'\indirizzo MAC che si è aggiunto in un momento precedente.
+		]]></item>
+	</string-array>
+
+	<string name="dialogConnect">Connettere</string>
+</resources>

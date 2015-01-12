@@ -4,6 +4,7 @@
 	    <item>@string/systemLanguage</item>
 	    <item>Deutsch</item>
 	    <item>English</item>
+	    <item>Italiano</item>
 	    <item>Polski</item>
 	    <item>Русский</item>
 	</string-array>
@@ -11,6 +12,7 @@
 	    <item>auto</item>
 	    <item>de</item>
 	    <item>en</item>
+	    <item>it</item>
 	    <item>pl</item>
 	    <item>ru</item>
 	</string-array>
