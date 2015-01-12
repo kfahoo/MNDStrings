@@ -101,18 +101,18 @@
 	<string-array name="help_texts">
 		<item><![CDATA[
 			<h1>Permissions</h1>
-			The permissions which WiFi Better Battery requests on your device have been chosen with great care. All permissions are necessary for its full functionality.<br />
-			Just in case you still have concerns we have listed all requested permissions below, each with an explanation of why we need it.<br /><br />
-			<b>Network permissions:</b> Necessary to list all available networks and to connect to networks.<br />
-			<b>Internet:</b> Used only for Google ads.<br />
+			Le autorizzazioni che WiFi Better Battery richiede sul dispositivo sono state scelte con grande cura. Tutte le autorizzazioni sono necessarie per la sua piena funzionalità.<br />
+			Nel caso tu avessi ancora preoccupazioni riguardo l'\elenco di tutte le autorizzazioni richieste, ciascuna ha una spiegazione del perchè ne abbiamo bisogno.<br /><br />
+			<b>Autorizzazioni di rete:</b> Necessaria per elencare tutte le reti disponibili e per connettersi ad esse.<br />
+			<b>Internet:</b> Utilizzata solo per gli annunci di Google.<br />
 		]]></item>
 		<item><![CDATA[
-			<h1>Available networks</h1>
-			After opening the app, the first thing you see is the list of available networks. WiFi does not have to be turned on for this function.<br />
-			You can see the names and signal strengths of the networks here. When you tap on a network, the options for it are displayed.
-			<h1>Warnings</h1>
-			If the MAC check is enabled in the Settings, you may get a warning when connecting. For more information please consult the \"Networks\" help.<br />
-			For connection problems, please follow the instructions offered by the Android system settings.
+			<h1>Reti disponibili</h1>
+			Dopo aver aperto l'\app, la prima cosa che si vede è la lista delle reti disponibili. La WiFi non deve essere attivata per questa funzione.<br />
+			E' possibile vedere qui i nomi e la potenza del segnale delle reti. Quando si preme su una rete, vengono visualizzate le opzioni di questa.
+			<h1>Avvertenze</h1>
+			Se il controllo del MAC è abilitato nelle impostazioni, è possibile avere un avviso quando ci si collega. Per maggiori informazioni consulta la guida il \"Reti\".<br />
+			Per problemi di connessione, si prega di seguire le istruzioni presenti nelle impostazioni di sistema di Android.
 		]]></item>
 		<item><![CDATA[
 			<h1>Saved networks</h1>
@@ -130,5 +130,5 @@
 		]]></item>
 	</string-array>
 
-	<string name="dialogConnect">Connect</string>
+	<string name="dialogConnect">Collegarsi</string>
 </resources>
