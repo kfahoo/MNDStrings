@@ -1,0 +1,22 @@
+Aggiunta la traduzione italiana!
+
+
+
+Prolunga la durata della batteria del tuo telefono o tablet con WiFi Better Battery!
+
+
+
+WiFi Better Battery prolunga la durata della batteria del tuo telefono o tablet facendo in modo che la loro WiFi/WLAN sia attivata solo quando ne avete bisogno. Quando si esce dalla portata della rete WiFi, la WiFi del dispositivo si spegne automaticamente (dopo un breve ritardo per consentire rapide riconnessioni dopo un problema di collegamento). Non appena si torna sotto copertura, la WiFi viene riaccesa e si viene connessi automaticamente alla tua rete preferita.
+
+Non c'è bisogno di preoccuparsi per la password o dati di rete - tutte le password vengono inserite nel Menu Impostazioni WiFi originale di Android, e l'applicazione non ha l'autorizzazione per visualizzare il traffico di rete.
+
+Questa applicazione può far risparmiare energia, e potenzialmente anche risparmiare qualche soldo - dimenticando di accendere il WiFi e scaricare accidentalmente qualcosa o guardare un video su dati mobili può essere costoso. Questo non accadrà mai più a voi con WiFi Better Battery!
+
+WiFi Better Battery viene fornito con una funzione di sicurezza opzionale. E 'un fatto poco noto che la funzionalità WiFi di Android è insicura. Per impostazione predefinita, Android controlla solo il nome di una rete prima di collegarsi ad essa. Questo significa che se avete salvato una rete, e Android rileva un'altra rete con lo stesso nome, Android tenta automaticamente di connettersi ad essa. Un dispositivo malintenzionato potrebbe utilizzare questo per raccogliere le password che vengono inviate durante i tentativi di connessione o inviare dati dannosi per il proprio dispositivo. WiFi Better Battery offre un controllo opzionale dell'indirizzo MAC per cercare di prevenire tali attacchi. L'indirizzo MAC indirizzi identifica univocamente un dispositivo.
+
+Gli acquisti in-app sono utilizzati solo per le donazioni e per la disattivazione della pubblicità. La piena funzionalità dell'applicazione è completamente gratuita.
+
+Le autorizzazioni che WiFi Better Battery richieste sul dispositivo sono stati scelte con grande cura. Tutte le autorizzazioni sono necessarie per la sua piena funzionalità.
+Nel caso tu avessi ancora preoccupazioni riguardo l'elenco di tutte le autorizzazioni richieste, ciascuna ha una spiegazione del perchè ne abbiamo bisogno.
+Autorizzazioni di rete: necessaria per elencare tutte le reti disponibili e per connettersi ad esse. L'applicazione non può leggere il traffico di rete o le password.
+Internet: Utilizzata solo per gli annunci di Google.
