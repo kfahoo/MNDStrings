@@ -60,34 +60,34 @@
 	<!-- Info -->
 	<string name="credits"><b>Developer</b>\nMichael Heissenberger</string>
 	<string name="translatorsTitle">Traduttori</string>
-	<string name="disclaimer"><b>Dichiarazione di non responsabilità</b>
-	    \nThis application is given freely in an attempt at helping those who need it. As this is a third party service we cannot guarantee that it will function properly or even give correct information.
-	    \nBy using this application, you agree to not hold us liable for any damages or issues which may result from use of this application.
+	<string name="disclaimer"><b>Disclaimer</b>
+	    \nQuesta applicazione è rilasciata liberamente per tentare di aiutare chi ne ha bisogno. Poiché si tratta di un servizio di terze parti, non possiamo garantire che funzioni correttamente o che dia informazioni corrette.
+	    \nUtilizzando questa applicazione, l'utente accetta di non ritenerci responsabili per eventuali danni o problemi che possono derivare dall'\uso di questa app.
 	</string>
-	<string name="contactUs">Contact Us</string>
-	<string name="donate">Donate</string>
-	<string name="noMailApp">No e-mail application found.</string>
-	<string name="noBrowserApp">No browser application found.</string>
+	<string name="contactUs">Contattaci</string>
+	<string name="donate">Dona</string>
+	<string name="noMailApp">Nessuna applicazione e-mail trovata.</string>
+	<string name="noBrowserApp">Nessuna applicazione browser trovata.</string>
 
 	<string name="donateText">
-		Thank you for considering donating to us!
-		\nWe\'re glad you like our app enough for you to want to give something back.
-		\nTo thank you for thanking us, if you donate, you can disable ads!
+		Ti ringraziamo per aver considerato di farci una donazione!
+		\nSiamo lieti che ti piaccia la nostra app abbastanza da voler darci qualcosa in cambio.
+		\nSe ci fai una donazione,per ricompensarti del tuo ringraziamento puoi disabilitare la pubblicità!
 	</string>
-	<string name="donate1">Get rid of ads! (%s)</string>
-	<string name="donate2">Be a good person! (%s)</string>
-	<string name="donate3">Buy our love! (%s)</string>
-	<string name="donateThankYou">Thank you so much for donating! You can turn off ads in the Settings now.</string>
-	<string name="connectionError">Unfortunately, an error has occurred. There might be a problem with your network connection.</string>
-	<string name="alreadyDonated">You already bought this! Thanks though!</string>
+	<string name="donate1">Sbarazzati della pubblicità! (%s)</string>
+	<string name="donate2">Sei una brava persona! (%s)</string>
+	<string name="donate3">Compra il nostro amore! (%s)</string>
+	<string name="donateThankYou">Grazie mille per la donazione! Ora è possibile disattivare la pubblicità nelle Impostazioni.</string>
+	<string name="connectionError"> Purtroppo si è verificato un errore. Ci potrebbe essere un problema con la connessione di rete.</string>
+	<string name="alreadyDonated">Hai già acquistato questo! Grazie comunque!</string>
 
 	<!-- Dialog fields -->
-	<string name="dialogYes">Yes</string>
+	<string name="dialogYes">Si</string>
 	<string name="dialogNo">No</string>
-	<string name="dialogNotNow">Not now</string>
-	<string name="dialogNever">No, don\'t ask again</string>
-	<string name="dialogSave">Save</string>
-	<string name="dialogCancel">Cancel</string>
-	<string name="dialogOK">Okay</string>
+	<string name="dialogNotNow">Non ora</string>
+	<string name="dialogNever">No, non chiedere di nuovo</string>
+	<string name="dialogSave">Salva</string>
+	<string name="dialogCancel">Annulla</string>
+	<string name="dialogOK">Ok</string>
 
 </resources>
