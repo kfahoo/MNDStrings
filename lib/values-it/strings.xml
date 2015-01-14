@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Actions -->
+	<string name="app_name"/>
+	<string name="drawer_open">Open menu</string>
+	<string name="drawer_close">Close menu</string>
+	<string name="action_settings">Settings</string>
+	<string name="action_help">Help</string>
+	<string name="action_about">About</string>
+	<string name="expand">Expand</string>
+	<string name="collapse">Collapse</string>
+	<string name="action_add">Add…</string>
+	<string name="action_edit">Edit</string>
+	<string name="action_delete">Delete</string>
+	<string name="pleaseWait">Please wait…</string>
+	
+	<!-- Preferences -->
+	<string name="prefCatGeneral">General</string>
+	<string name="prefLang">Language</string>
+	<string name="systemLanguage">System language</string>
+	<string name="prefAds">Show advertisements</string>
+	<string name="prefAdsDesc">Please support the developer by letting unobstrusive ads be shown.</string>
+	<string name="prefTheme">Theme</string>
+	<string name="prefThemeDesc">Here you can choose between a light and a dark theme.</string>
+	<string name="themeLight">Light</string>
+	<string name="themeDark">Dark</string>
+	<string name="prefDrawer">Drawer open on start</string>
+	<string name="prefDrawerDesc">If you activate this, the left drawer will be open when you start the app. (No effect on tablets)</string>
+	<string name="adsAsk">
+		We understand the aversion to ads, they can be annoying. But making apps is a lot of hard work.
+		\nIf you really don\'t want to see ads, please consider donating instead.
+	</string>
+	
+	<!-- Help -->
+   	<string name="helpNav"><![CDATA[
+		<h1>Navigation</h1>
+		By tapping the three horizontal lines in the upper left corner, you can open the navigation drawer. (It is always open on tablets.)<br />
+		You can access all other help pages from here by tapping &quot;%s&quot; above.
+	]]></string>
+	<string name="helpUs"><![CDATA[
+	    <h1>We need your help!</h1>
+		Please help %1$s gain popularity by recommending it to your friends or doing one of the following:<br /><br />
+		<a href="https://www.facebook.com/%2$s">Please like and share our page on Facebook!</a><br /><br />
+		<a href="market://details?id=%3$s">Please rate %1$s in the Google Play Store!</a><br /><br />
+		<a href="">You can also help by donating!</a>
+		<a href="https://github.com/CanisLupusXenonis/MNDStrings">Or help translating the app to another language!</a>
+	]]></string>
+    <string-array name="help_spinner"/>
+    <string-array name="help_texts"/>
+    <string name="helpUsTitle">We need your help!</string>
+    <string name="helpUsMessage">Do you like %s? If so, please…</string>
+    <string-array name="helpUsItems">
+        <item>rate it with 5 stars in the Google Play Store!</item>
+        <item>like it on Facebook!</item>
+        <item>contact us with feedback!</item>
+	    <item>give back by donating!</item>
+    </string-array>
+	
+	<!-- Info -->
+	<string name="credits"><b>Developer</b>\nMichael Heissenberger</string>
+	<string name="translatorsTitle">Translators</string>
+	<string name="disclaimer"><b>Disclaimer</b>
+	    \nThis application is given freely in an attempt at helping those who need it. As this is a third party service we cannot guarantee that it will function properly or even give correct information.
+	    \nBy using this application, you agree to not hold us liable for any damages or issues which may result from use of this application.
+	</string>
+	<string name="contactUs">Contact Us</string>
+	<string name="donate">Donate</string>
+	<string name="noMailApp">No e-mail application found.</string>
+	<string name="noBrowserApp">No browser application found.</string>
+
+	<string name="donateText">
+		Thank you for considering donating to us!
+		\nWe\'re glad you like our app enough for you to want to give something back.
+		\nTo thank you for thanking us, if you donate, you can disable ads!
+	</string>
+	<string name="donate1">Get rid of ads! (%s)</string>
+	<string name="donate2">Be a good person! (%s)</string>
+	<string name="donate3">Buy our love! (%s)</string>
+	<string name="donateThankYou">Thank you so much for donating! You can turn off ads in the Settings now.</string>
+	<string name="connectionError">Unfortunately, an error has occurred. There might be a problem with your network connection.</string>
+	<string name="alreadyDonated">You already bought this! Thanks though!</string>
+
+	<!-- Dialog fields -->
+	<string name="dialogYes">Yes</string>
+	<string name="dialogNo">No</string>
+	<string name="dialogNotNow">Not now</string>
+	<string name="dialogNever">No, don\'t ask again</string>
+	<string name="dialogSave">Save</string>
+	<string name="dialogCancel">Cancel</string>
+	<string name="dialogOK">Okay</string>
+
+</resources>
