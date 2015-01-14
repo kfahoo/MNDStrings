@@ -66,9 +66,9 @@
 	<string name="prefLegacyDesc">In Android >= 4.3 l'\auto-scan usa la modalità WiFi a bassa potenza, che è più efficiente che spegnerla e accenderla tutte le volte. In alcuni dispositivi, questa caratteristica non funziona e viene usata in ogni caso tutta la potenza. Se si vede un elevato utilizzo di energia, si prega di attivare questa funzione e disattivare l'\opzione "Ricerca reti sempre attiva" nelle impostazioni avanzate del tuo dispositivo. Questa impostazione non ha effetti su Android &lt; 4.3.</string>
 	<string name="prefCatPlan">Automatismi</string>
 	<string name="prefPlanEnabled">Abilita pianificazione</string>
-	<string name="prefPlanEnabledDesc">Questa impostazione, insieme al settaggio \"Ora d'\inizio\" e <b>Ora di fine</b> può essere usata per far sì che WiFi Better Battery spenga la WiFi in certi momenti, per esempio durante la notte.</string>
-	<string name="prefPlanStart">Ora d'\inizio</string>
-	<string name="prefPlanEnd">Ora di fine</string>
+	<string name="prefPlanEnabledDesc">Questa impostazione, insieme al settaggio \"Ora di disattivazione\" e \"Ora di riattivazione\" può essere usata per far sì che WiFi Better Battery spenga la WiFi in certi momenti, per esempio durante la notte.</string>
+	<string name="prefPlanStart">Ora di disattivazione</string>
+	<string name="prefPlanEnd">Ora di riattivazione</string>
 	<string name="prefDisableScreenOff">Disabilita con schermo spento</string>
 	<string name="prefDisableScreenOffDesc">Disabilita la scansione quando lo schermo del tuo dispositivo è spento per risparmiare ancor più batteria.</string>
 	<string name="prefDisconnectScreenOff">Disconnetti con lo schermo spento</string>
@@ -77,6 +77,9 @@
 	<string name="prefScanScreenOnDesc">Avviare una scansione per reti WiFi quando lo schermo del dispositivo viene acceso.</string>
 	<string name="prefScanConnected">Scansione durante la connessione</string>
 	<string name="prefScanConnectedDesc">Utilizza più batteria, ma consente il Roaming del WiFi (passaggio ad un altra rete con un migliore segnale di connessione)</string>
+	<string name="prefCatRoot">Root</string>
+	<string name="prefRootPower">WiFi a bassa potenza</string>
+	<string name="prefRootPowerDesc">Questo funziona solo sui dispositivi con ROOT, e non su tutti. Imposta la potenza di trasmissione WiFi su un valore inferiore durante la modalità ricerca sempre attiva. USARE QUESTO SOLO SE SAPETE COSA STATE FACENDO</string>
 
 	<string name="macNotifTitle">Rilevato cambio di MAC!</string>
 	<string name="macNotifText">E'\ stata trovata la rete %s, ma non è stata stabilita alcuna connessione perchè l'\indirizzo MAC è cambiato. Si prega di premere qui per le opzioni.</string>
