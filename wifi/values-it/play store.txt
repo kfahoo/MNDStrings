@@ -6,4 +6,5 @@ Prolunga la durata della batteria del tuo telefono o tablet con WiFi Better Batt
 
 
 
-WiFi Better Battery prolunga la durata della batteria del tuo telefono o tablet facendo in modo che la WiFi/WLAN sia attivata solo quando ne avete bisogno. Quando si lascia la portata della rete WiFi, WiFi del dispositivo si spegne automaticamente (dopo un breve ritardo per consentire rapide riconnette dopo un incidente di percorso di collegamento). Non appena si torna in campo, il tuo WiFi viene riaccesa e si viene connessi automaticamente al tuo network preferito.
+WiFi Better Battery prolunga la durata della batteria del tuo telefono o tablet facendo in modo che la loro WiFi/WLAN sia attivata solo quando ne avete bisogno. Quando si esce dalla portata della rete WiFi, la WiFi del dispositivo si spegne automaticamente (dopo un breve ritardo per consentire rapide riconnessioni dopo un problema di collegamento). Non appena si torna sotto copertura, la WiFi viene riaccesa e si viene connessi automaticamente alla tua rete preferita.
+
