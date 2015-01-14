@@ -66,9 +66,9 @@
 	<string name="prefLegacyDesc">In Android >= 4.3 auto-scan uses low-power WiFi, which is more efficient than turning it off and on all the time. On some devices, this feature is broken and it uses full power anyway. If you see high energy usage, please activate this and disable the "Scanning always available" option in your device\'s advanced WiFi settings. This setting has no effect on Android &lt; 4.3.</string>
 	<string name="prefCatPlan">Automation</string>
 	<string name="prefPlanEnabled">Enable planning</string>
-	<string name="prefPlanEnabledDesc">This setting, along with the \"Start time\" and <b>End time</b> settings can be used to make WiFi Better Battery switch off WiFi at certain times, for instance during the night.</string>
-	<string name="prefPlanStart">Start time</string>
-	<string name="prefPlanEnd">End time</string>
+	<string name="prefPlanEnabledDesc">This setting, along with the \"Deactivation time\" and \"Reactivation time\" settings can be used to make WiFi Better Battery switch off WiFi at certain times, for instance during the night.</string>
+	<string name="prefPlanStart">Deactivation time</string>
+	<string name="prefPlanEnd">Reactivation time</string>
 	<string name="prefDisableScreenOff">Disable with screen off</string>
 	<string name="prefDisableScreenOffDesc">Disable scanning while the screen of your device is turned off to save even more battery.</string>
 	<string name="prefDisconnectScreenOff">Disconnect with screen off</string>
@@ -77,6 +77,9 @@
 	<string name="prefScanScreenOnDesc">Start a scan for WiFi networks when you turn on the screen of your device.</string>
 	<string name="prefScanConnected">Scan while connected</string>
 	<string name="prefScanConnectedDesc">Uses more battery, but allows for WiFi Roaming (switching to another network with better connection strength)</string>
+	<string name="prefCatRoot">Root</string>
+	<string name="prefRootPower">Lower WiFi power</string>
+	<string name="prefRootPowerDesc">This only works on ROOTED devices, and not all of them. Sets the WiFi TX power to a lower setting during scan-always mode. ONLY USE THIS IF YOU KNOW WHAT YOU ARE DOING</string>
 
 	<string name="macNotifTitle">MAC change detected!</string>
 	<string name="macNotifText">The network %s was found, but no connection was established because its MAC address changed. Please tap here for options.</string>

@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string-array name="langNames" translatable="false">
-	    <item>@string/systemLanguage</item>
-	    <item>Deutsch</item>
-	    <item>English</item>
-	    <item>Italiano</item>
-	    <item>Polski</item>
-	    <item>Русский</item>
+		<item>@string/systemLanguage</item>
+		<item>Deutsch</item>
+		<item>English</item>
+		<item>Italiano</item>
+		<item>Polski</item>
+		<item>Русский</item>
 	</string-array>
 	<string-array name="langCodes" translatable="false">
-	    <item>auto</item>
-	    <item>de</item>
-	    <item>en</item>
-	    <item>it</item>
-	    <item>pl</item>
-	    <item>ru</item>
+		<item>auto</item>
+		<item>de</item>
+		<item>en</item>
+		<item>it</item>
+		<item>pl</item>
+		<item>ru</item>
 	</string-array>
+	<string name="translators" translatable="false">
+		Aleksei Trubnikov (Russian)
+		\nkfahoo (Polish)
+	</string>
 </resources>

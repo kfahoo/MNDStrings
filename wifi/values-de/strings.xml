@@ -66,9 +66,9 @@
 	<string name="prefLegacyDesc">Auf Android &gt;= 4.3 wird ein Niedrigenergie-WLAN-Modus verwendet. Auf manchen Geräten wird aber trotzdem viel Energie verbraucht. Bei hohem Akkuverbrauch aktivieren Sie bitte diese Option und deaktivieren Sie die Option \"Scannen immer verfügbar\" in den erweiterten WLAN-Einstellungen Ihres Geräts. Nur für Android &gt;= 4.3</string>
 	<string name="prefCatPlan">Automatisierung</string>
 	<string name="prefPlanEnabled">Planung aktivieren</string>
-	<string name="prefPlanEnabledDesc">Mit dieser und den \"Startzeit\"- und \"Endzeit\"-Einstellungen können Sie einstellen, dass WLAN-Akkusparer Ihr WLAN zu bestimmten Zeiten deaktivieren soll, z.B. in der Nacht.</string>
-	<string name="prefPlanStart">Startzeit</string>
-	<string name="prefPlanEnd">Endzeit</string>
+	<string name="prefPlanEnabledDesc">Mit dieser und den \"Deaktivierungszeit\"- und \"Reaktivierungszeit\"-Einstellungen können Sie einstellen, dass WLAN-Akkusparer Ihr WLAN zu bestimmten Zeiten deaktivieren soll, z.B. in der Nacht.</string>
+	<string name="prefPlanStart">Deaktivierungszeit</string>
+	<string name="prefPlanEnd">Reaktivierungszeit</string>
 	<string name="prefDisableScreenOff">Deaktivieren bei abgeschaltetem Bildschirm</string>
 	<string name="prefDisableScreenOffDesc">Scannen bei abgeschaltetem Bildschirm deaktivieren, um noch mehr Akku zu sparen.</string>
 	<string name="prefDisconnectScreenOff">Trennen bei abgeschaltetem Bildschirm</string>
@@ -77,6 +77,9 @@
 	<string name="prefScanScreenOnDesc">Bei der Reaktivierung Ihres Geräts einen Scan nach Netzwerken starten.</string>
 	<string name="prefScanConnected">Bei Verbindung scannen</string>
 	<string name="prefScanConnectedDesc">Verbraucht mehr Akku, ermöglicht aber WLAN-Roaming (fließendes Umschalten zwischen Netzwerken je nach Verbindungsqualität)</string>
+	<string name="prefCatRoot">Root</string>
+	<string name="prefRootPower">Niedrige TX Power</string>
+	<string name="prefRootPowerDesc">Dies funktioniert nur auf Geräten mit ROOT. Die WLAN-TX Power wird im \"Scannen immer verfügbar"-Modus herabgesetzt. NUR VERWENDEN, WENN SIE WISSEN, WAS SIE TUN.</string>
 
 	<string name="macNotifTitle">MAC-Änderung entdeckt!</string>
 	<string name="macNotifText">Das Netzwerk %s wurde gefunden, es wurde aber aufgrund geänderter MAC keine Verbindung hergestellt. Für Optionen bitte hier drücken.</string>

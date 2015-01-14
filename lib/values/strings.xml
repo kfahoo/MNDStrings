@@ -43,7 +43,7 @@
 		Please help %1$s gain popularity by recommending it to your friends or doing one of the following:<br /><br />
 		<a href="https://www.facebook.com/%2$s">Please like and share our page on Facebook!</a><br /><br />
 		<a href="market://details?id=%3$s">Please rate %1$s in the Google Play Store!</a><br /><br />
-		<a href="">You can also help by donating!</a>
+		<a href="">You can also help by donating!</a><br /><br />
 		<a href="https://github.com/CanisLupusXenonis/MNDStrings">Or help translating the app to another language!</a>
 	]]></string>
     <string-array name="help_spinner"/>
