@@ -72,7 +72,7 @@
 	<string name="prefDisableScreenOff">Disabilita con schermo spento</string>
 	<string name="prefDisableScreenOffDesc">Disabilita la scansione quando lo schermo del tuo dispositivo è spento per risparmiare ancor più batteria.</string>
 	<string name="prefDisconnectScreenOff">Disconnetti con lo schermo spento</string>
-	<string name="prefDisconnectScreenOffDesc">Disconnetti da qualsiasi rete a cui si è connessi quando lo schermo viene spento. Questa funzione non controlla se ci sono download attivi.</string>
+	<string name="prefDisconnectScreenOffDesc">Disconnetti da qualsiasi rete connessa quando lo schermo viene spento. Questa funzione non controlla se ci sono download attivi.</string>
 	<string name="prefScanScreenOn">Scansione con schermo acceso</string>
 	<string name="prefScanScreenOnDesc">Avviare una scansione per reti WiFi quando lo schermo del dispositivo viene acceso.</string>
 	<string name="prefScanConnected">Scansione durante la connessione</string>
@@ -103,7 +103,7 @@
 
 	<string-array name="help_texts">
 		<item><![CDATA[
-			<h1>Permissions</h1>
+			<h1>Autorizzazioni</h1>
 			Le autorizzazioni che WiFi Better Battery richiede sul dispositivo sono state scelte con grande cura. Tutte le autorizzazioni sono necessarie per la sua piena funzionalità.<br />
 			Nel caso tu avessi ancora preoccupazioni riguardo l\'elenco di tutte le autorizzazioni richieste, ciascuna ha una spiegazione del perchè ne abbiamo bisogno.<br /><br />
 			<b>Autorizzazioni di rete:</b> Necessaria per elencare tutte le reti disponibili e per connettersi ad esse.<br />
