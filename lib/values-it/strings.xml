@@ -25,26 +25,26 @@
 	<string name="prefThemeDesc">Qui si può scegliere tra il tema chiaro e quello scuro.</string>
 	<string name="themeLight">Chiaro</string>
 	<string name="themeDark">Scuro</string>
-	<string name="prefDrawer">Aprire il drawer all'\avvio</string>
-	<string name="prefDrawerDesc">Se si attiva questo, il drawer di sinistra sarà aperto quando si avvia l'applicazione. (Nessun effetto sui tablet)</string>
+	<string name="prefDrawer">Aprire il drawer all\'avvio</string>
+	<string name="prefDrawerDesc">Se si attiva questo, il drawer di sinistra sarà aperto quando si avvia l\'applicazione. (Nessun effetto sui tablet)</string>
 	<string name="adsAsk">
-		Comprendiamo l'avversione per la pubblicità, può essere fastidiosa. Ma fare apps comporta molto duro lavoro.
+		Comprendiamo l\'avversione per la pubblicità, può essere fastidiosa. Ma fare apps comporta molto duro lavoro.
 		\nSe davvero non vuoi vedere pubblicità, allora considera di fare una donazione.
 	</string>
 	
 	<!-- Help -->
    	<string name="helpNav"><![CDATA[
 		<h1>Navigazione</h1>
-		Toccando le tre linee orizzontali in alto a sinistra, è possibile aprire il drawer di navigazione. (E'\ sempre aperto sui tablet.)<br />
+		Toccando le tre linee orizzontali in alto a sinistra, è possibile aprire il drawer di navigazione. (E\' sempre aperto sui tablet.)<br />
 		È possibile accedere a tutte le altre pagine di aiuto da qui toccando &quot;%s&quot; sopra.
 	]]></string>
 	<string name="helpUs"><![CDATA[
 	    <h1>Abbiamo bisogno del vostro aiuto!</h1>
-		Per favore aiutaci %1$s a guadagnare popolarità raccomandando l'app ai tuoi amici o fai una delle seguenti operazioni:<br /><br />
+		Per favore aiutaci %1$s a guadagnare popolarità raccomandando l\'app ai tuoi amici o fai una delle seguenti operazioni:<br /><br />
 		<a href="https://www.facebook.com/%2$s">Dai un like e condividi la nostra pagina su Facebook!</a><br /><br />
 		<a href="market://details?id=%3$s">Per favore vota %1$s nel Google Play Store!</a><br /><br />
 		<a href="">Puoi aiutare anche con una donazione!</a>
-		<a href="https://github.com/CanisLupusXenonis/MNDStrings">O aiutare a tradurre l'\applicazione in un'altra lingua! !</a>
+		<a href="https://github.com/CanisLupusXenonis/MNDStrings">O aiutare a tradurre l\'applicazione in un\'altra lingua! !</a>
 	]]></string>
     <string-array name="help_spinner"/>
     <string-array name="help_texts"/>
@@ -62,7 +62,7 @@
 	<string name="translatorsTitle">Traduttori</string>
 	<string name="disclaimer"><b>Disclaimer</b>
 	    \nQuesta applicazione è rilasciata liberamente per tentare di aiutare chi ne ha bisogno. Poiché si tratta di un servizio di terze parti, non possiamo garantire che funzioni correttamente o che dia informazioni corrette.
-	    \nUtilizzando questa applicazione, l'utente accetta di non ritenerci responsabili per eventuali danni o problemi che possono derivare dall'\uso di questa app.
+	    \nUtilizzando questa applicazione, l\'utente accetta di non ritenerci responsabili per eventuali danni o problemi che possono derivare dall\'uso di questa app.
 	</string>
 	<string name="contactUs">Contattaci</string>
 	<string name="donate">Dona</string>

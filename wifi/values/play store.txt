@@ -10,6 +10,8 @@ WiFi Better Battery prolongs your phone or tablet's battery life by making sure 
 
 There's no need to worry about your network password or connection data - any passwords are entered in the original Android settings tool, and the app does not have the permission to view network traffic.
 
+<b>What makes it better than similar apps?</b> Other WiFi power savers require you to set up a condition to turn on (some also to turn off) WiFi, like the time of day or your location. That means less privacy and more battery usage. WiFi Better Battery simply uses a very low-power state in which only scanning is available (Android 4.3 and up only) to always be connected quickly while still saving battery.
+
 This app can save power, and potentially also save you some money - forgetting to turn on your WiFi and accidentally downloading something or watching a video over mobile data can get expensive. This will never happen to you again with WiFi Better Battery!
 
 WiFi Better Battery also comes with an optional security feature. It is a little known fact how insecure Android's WiFi functionality is. By default, Android only checks the name of a network before connecting to it. That means that if you have a network saved, and Android detects another network with the same name, Android automatically tries to connect to it. A malicious device could use this to collect passwords that are sent during connection attempts or send harmful data to your device. WiFi Better Battery offers an optional MAC address check to try to prevent such attacks. MAC addresses uniquely identify a device.
