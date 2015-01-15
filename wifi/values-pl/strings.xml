@@ -55,28 +55,33 @@
 	]]></string>
 	<string name="compatibilityModeActive">Aktywowano tryb zgodności. Możesz to zmienić w opcjach.</string>
 	
-	<string name="prefCatWifi">WiFi</string>
-	<string name="prefRefreshTime">Częstotliwość odświeżania</string>
-	<string name="prefRefreshTimeDesc">Jak często sprawdzać czy sieć jest w zasięgu. Im mniejszy interwał, szybciej się połączysz, ale też zwiększy się zużycie prądu!</string>
-	<string name="prefMacCheck">Kontrola MAC</string>
-	<string name="prefMacCheckDesc">Tutaj możesz wyłączyć sprawdzanie adresu MAC przed próbą połączenia (nie polecane!). Aby uzyskać więcej informacji o tym mechanizmie zajrzyj do pomocy w \"Sieciach\".</string>
-	<string name="prefAutoFuncs">Automatyczne zarządzanie WiFi</string>
-	<string name="prefAutoFuncsDesc">Automagicznie włączaj i wyłączaj WiFi oraz łącz się z zapisanymi sieciami. Jest to wymagane by oszczędzać baterie! Jest też widżet dla szybszego dostępu dla tego ustawienia.</string>
-	<string name="prefLegacy">Autoskanowanie w trybie zgodnosci</string>
-	<string name="prefLegacyDesc">W wersjach >= 4.3 WiFi do automatycznego skanowania używa małej mocy, co jest bardziej wydajne niż ciągłe włączanie i wyłączanie WiFi. Na niektórych urządzeniach, ten mechanizm nie działa prawidłowo i używana jest pełna moc. Jeśli zaobserwujesz zwiększone zużycie prądu włacz to i wyłącz opcje "Skanowanie zawsze dostępne" w zaawansowanych ustawieniach WiFi.</string>
-	<string name="prefCatPlan">Automatyzacja</string>
-	<string name="prefPlanEnabled">Włącz planowanie</string>
-	<string name="prefPlanEnabledDesc">To ustawienie zgodnie z wybranym czasem rozpoczęcia i zakończenia może być używane do wyłączania WiFi o określonych porach, np. w nocy.</string>
-	<string name="prefPlanStart">Początek</string>
-	<string name="prefPlanEnd">Koniec</string>
-	<string name="prefDisableScreenOff">Wyłącz wraz z wyłączeniem się ekranu</string>
-	<string name="prefDisableScreenOffDesc">By jeszcze zmniejszyć zużycie prądu wyłącz skanowanie gdy ekran Twojego urządzenia jest wyłączony.</string>
-	<string name="prefDisconnectScreenOff">Rozłącz wraz z wyłączeniem się ekranu</string>
-	<string name="prefDisconnectScreenOffDesc">Automatycznie rozłącz się z każdą siecią do której jesteś podłączony wraz jesli ekran zostanie wyłączony. Ta funkcja nie sprawdza aktywnych połączeń (np. ściąganych plików).</string>
-	<string name="prefScanScreenOn">Skanuj podczas włączania ekranu</string>
-	<string name="prefScanScreenOnDesc">Zacznij skanowanie sieci WiFi podczas właczenia ekranu.</string>
-	<string name="prefScanConnected">Skanuj kiedy jesteś podłączony</string>
-	<string name="prefScanConnectedDesc">Zużywa to więcej prądu, ale umożliwia korzystanie z roamingu WiFI(przełączanie się do sieci z lepszymi parametrami np. siła sygnału)</string>
+ <string name="prefCatWifi">WiFi</string>
+ <string name="prefRefreshTime">Częstotliwość odświeżania</string>
+ <string name="prefRefreshTimeDesc">Jak często sprawdzać czy sieć jest w zasięgu. Im mniejszy interwał, szybciej się połączysz, ale też zwiększy się zużycie prądu!</string>
+ <string name="prefMacCheck">Kontrola MAC</string>
+ <string name="prefMacCheckDesc">Tutaj możesz wyłączyć sprawdzanie adresu MAC przed próbą połączenia (nie polecane!). Aby uzyskać więcej informacji o tym mechanizmie zajrzyj do pomocy w \"Sieciach\".</string>
+ <string name="prefAutoFuncs">Automatyczne zarządzanie WiFi</string>
+ <string name="prefAutoFuncsDesc">Automagicznie włączaj i wyłączaj WiFi oraz łącz się z zapisanymi sieciami. Jest to wymagane by oszczędzać baterie! Jest też widżet dla szybszego dostępu dla tego ustawienia.</string>
+ <string name="prefLegacy">Autoskanowanie w trybie zgodnosci</string>
+ <string name="prefLegacyDesc">W wersjach >= 4.3 WiFi do automatycznego skanowania używa małej mocy, co jest bardziej wydajne niż ciągłe włączanie i wyłączanie WiFi. Na niektórych urządzeniach, ten mechanizm nie działa prawidłowo i używana jest pełna moc. Jeśli zaobserwujesz zwiększone zużycie prądu włacz to i wyłącz opcje "Skanowanie zawsze dostępne" w zaawansowanych ustawieniach WiFi.</string>
+ <string name="prefCatPlan">Automatyzacja</string>
+ <string name="prefPlanEnabled">Włącz planowanie</string>
+ <string name="prefPlanEnabledDesc">To ustawienie zgodnie z wybranym czasem rozpoczęcia i zakończenia może być używane do wyłączania WiFi o określonych porach, np. w nocy.</string>
+ <string name="prefPlanStart">Początek</string>
+ <string name="prefPlanEnd">Koniec</string>
+ <string name="prefDisableScreenOff">Wyłącz wraz z wyłączeniem się ekranu</string>
+ <string name="prefDisableScreenOffDesc">By jeszcze zmniejszyć zużycie prądu wyłącz skanowanie gdy ekran Twojego urządzenia jest wyłączony.</string>
+ <string name="prefDisconnectScreenOff">Rozłącz wraz z wyłączeniem się ekranu</string>
+ <string name="prefDisconnectScreenOffDesc">Automatycznie rozłącz się z każdą siecią do której jesteś podłączony wraz jesli ekran zostanie wyłączony. Ta funkcja nie sprawdza aktywnych połączeń (np. ściąganych plików).</string>
+ <string name="prefScanScreenOn">Skanuj podczas włączania ekranu</string>
+ <string name="prefScanScreenOnDesc">Zacznij skanowanie sieci WiFi podczas właczenia ekranu.</string>
+ <string name="prefScanConnected">Skanuj kiedy jesteś podłączony</string>
+ <string name="prefScanConnectedDesc">Zużywa to więcej prądu, ale umożliwia korzystanie z roamingu WiFI(przełączanie się do sieci z lepszymi parametrami np. siła sygnału)</string>
+ <string name="prefCatRoot">Root</string>
+ <string name="prefRootPower">Niższa moc WiFi</string>
+ <string name="prefRootPowerDesc">Działa tylko na ZROOTOWANYCH urządzeniach, i to nie na wszystkich. W trybie ciągłego skanowania ustawia moc nadajnika WiFi na niższą wartość. UŻYWAJ TEGO TYLKO JEŚLI WIESZ CO ROBISZ</string>
+
+
 
 	<string name="macNotifTitle">Wykryto zmiane adresu MAC!</string>
 	<string name="macNotifText">Znaleziono sieć %s, ale ponieważ wykryto zmiane adresu MAC połączenie nie zostało nawiązane. Dotknij tu by uzyskać więcej opcji.</string>
