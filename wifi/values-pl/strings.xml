@@ -19,7 +19,7 @@
 	<string name="newMac">
 		Łączysz się z tą siecią pierwszy raz!
 		\nMAC adres routera to %s. Jeśli to możliwe zweryfikuj go.
-		\nNie przejmuj się że widzisz to powiadmienie - wyświetliło się ono tylko jako mechanizm ochronny.
+		\nNie przejmuj się że widzisz to powiadomienie - wyświetliło się ono tylko jako mechanizm ochronny.
 		\nJeśli jesteś pewnien że łączysz się z właściwą siecią, po prostu naciśnij \"Połącz\".
 		\nMożesz wyłączyć to ostrzeżenie w Ustawieniach.
 	</string>
