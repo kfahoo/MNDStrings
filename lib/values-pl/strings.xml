@@ -64,8 +64,8 @@
 	    \nTa aplikacja ma na celu udzielenie wskazówek i porad, jako darmowa pomoc dla tych którzy jej potrzebują. Ponieważ jest to aplikacja zewnętrzna, nie możemy zagwarantować, że będzie działać poprawnie czy nawet że będziemy w stanie dać właściwą poradę.
 	    \nUżywając tej aplikacji, użytkownik zgadza się nie obarczać nas odpowiedzialnością za jakiekolwiek szkody lub problemy, które mogą być wynikiem korzystania z tej aplikacji.
 	</string>
-	<string name="contactUs">Napisz</string>
-	<string name="donate">Wesprzyj</string>
+	<string name="contactUs">Napisz do nas</string>
+	<string name="donate">Wesprzyj nas</string>
 	<string name="noMailApp">Nie znaleziono klienta poczty.</string>
 	<string name="noBrowserApp">Nie znaleziono przeglądarki.</string>
 
